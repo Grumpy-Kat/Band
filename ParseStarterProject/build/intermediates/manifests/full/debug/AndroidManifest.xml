@@ -38,6 +38,9 @@
         <activity
             android:name="com.parse.starter.LoginSignupActivity"
             android:label="@string/app_name" />
+        <activity
+            android:name="com.parse.starter.Tomorrow"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

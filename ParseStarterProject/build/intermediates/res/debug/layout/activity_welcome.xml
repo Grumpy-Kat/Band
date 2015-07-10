@@ -7,9 +7,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtuser"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the date"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvdates">
+
+    </ListView>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logout"/>
+        android:id="@+id/logout"
+        android:text="logout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BookSlot"
+        android:text="Book Slot"/>
+
 
 </LinearLayout><!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/res/layout/activity_welcome.xml -->
