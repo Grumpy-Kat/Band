@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/libs/ParseCrashReporting-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.3-5793c74fded446883d8498dd96240fc3a2bd2689.jar" />
+    </item>
+    <item
         jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/libs/Parse-1.9.3.jar"
         jumboMode="false"
         revision="22.0.0"
@@ -14,13 +21,6 @@
         revision="22.0.0"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
         <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-92ec29d95765a6d17a7e7eae724d0db808debd46.jar" />
-    </item>
-    <item
-        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/libs/ParseCrashReporting-1.9.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
-        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.3-5793c74fded446883d8498dd96240fc3a2bd2689.jar" />
     </item>
 
 </items>
