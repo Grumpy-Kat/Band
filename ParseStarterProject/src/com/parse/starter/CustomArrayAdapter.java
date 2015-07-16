@@ -43,7 +43,7 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
     {
         //creating the ViewHolder we defined earlier.
         final ViewHolder holder = new ViewHolder();
-        final String[] values = new String[] { "7am-8am Slot","8am-9am Slot","9am-10am Slot","10am-11am Slot","11am-12pm Slot",
+        final String[] values = new String[] { "07am-08am Slot","08am-09am Slot","09am-10am Slot","10am-11am Slot","11am-12pm Slot",
                 "12pm-1pm Slot","1pm-2pm Slot","2pm-3pm Slot","3pm-4pm Slot","4pm-5pm Slot","5pm-6pm Slot","6pm-7pm Slot"};
         //creating LayoutInflator for inflating the row layout.
         LayoutInflater inflator = (LayoutInflater)x.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

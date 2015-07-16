@@ -52,6 +52,11 @@ public class Welcome extends Activity {
                    startActivity(intent);
 
                }
+               if(position==2){
+                   Intent intent = new Intent(Welcome.this,ThirdDay.class);
+                   startActivity(intent);
+
+               }
 
            }
 

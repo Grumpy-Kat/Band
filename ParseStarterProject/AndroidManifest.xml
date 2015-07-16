@@ -46,6 +46,11 @@
             android:name=".Tomorrow"
             android:label="@string/app_name" />
 
+        <activity
+            android:name=".ThirdDay"
+            android:label="@string/app_name" />
+
+
 
     </application>
 

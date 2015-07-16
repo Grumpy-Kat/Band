@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -32,6 +33,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
@@ -40,6 +43,7 @@ import java.util.List;
  */
 public class DayAfter extends FragmentActivity {
     RowData ob;
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
     ArrayList<String> array_list_posts;
     ArrayList<RowData> rowDataList;
@@ -48,7 +52,7 @@ public class DayAfter extends FragmentActivity {
     TextView tvslot;
 
     Boolean[] array = new Boolean[12];
-    final String[] values = new String[] { "7am-8am","8am-9am","9am-10am","10am-11am","11am-12pm",
+    final String[] values = new String[] { "07am-08am","08am-09am","09am-10am","10am-11am","11am-12pm",
             "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm"};
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     // Get the date today using Calendar object.
@@ -57,6 +61,7 @@ public class DayAfter extends FragmentActivity {
 // representation of a date with the defined format.
     String reportDate = df.format(today);
     String outputDate="";
+
 
 
     @Override
@@ -81,16 +86,379 @@ public class DayAfter extends FragmentActivity {
         }
 
 
-        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        c.add(Calendar.DATE, 2);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
         SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
         outputDate = sdf1.format(c.getTime());
 
 
 
-        final ParseUser currentUser = ParseUser.getCurrentUser();
 
+        final ParseUser currentUser = ParseUser.getCurrentUser();
         final String struser = currentUser.getUsername().toString();
         new Read().execute();
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+                if(position==0) {
+                    final ParseObject gameScore = new ParseObject("dbBand");
+
+                    query.whereEqualTo("bookedSlots", "07am-08am");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Log.d("score", "Retrieved " + scoreList.size() + " scores");
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "07am-08am");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+                }
+
+
+
+
+
+                if(position==1){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "08am-09am");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "08am-09am");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                if(position==2){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "09am-10am");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "09am-10am");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+
+                }
+                if(position==3){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "10am-11am");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "10am-11am");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                if(position==4){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "11am-12pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "11am-12pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                if(position==5){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "12pm-1pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "12pm-1pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+
+                if(position==6){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "1pm-2pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "1pm-2pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+
+                if(position==7){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "2pm-3pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "2pm-3pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+
+                if(position==8){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "3pm-4pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "3pm-4pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                if(position==9){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "4pm-5pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "4pm-5pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+
+                if(position==10){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "5pm-6pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "5pm-6pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                if(position==11){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "6pm-7pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "6pm-7pm");
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+                }
+                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
+                dataAdapter.sort(new Comparator<RowData>() {
+                    public int compare(RowData arg0, RowData arg1) {
+                        return arg0.getSlot().compareTo(arg1.getSlot());
+                    }
+                });
+
+
+                dataAdapter.notifyDataSetChanged();
+                listView.setAdapter(dataAdapter);
+            }
+        });
 
     }
 
@@ -121,7 +489,16 @@ public class DayAfter extends FragmentActivity {
                                 Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
                                 rowDataList.add(ob);
 
+
                                 CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
+                                dataAdapter.sort(new Comparator<RowData>() {
+                                    public int compare(RowData arg0, RowData arg1) {
+                                        return arg0.getSlot().compareTo(arg1.getSlot());
+                                    }
+                                });
+
+
+                                dataAdapter.notifyDataSetChanged();
                                 listView.setAdapter(dataAdapter);
 
                             } else {
@@ -132,6 +509,14 @@ public class DayAfter extends FragmentActivity {
                                 Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
                                 rowDataList.add(ob);
                                 CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
+                                dataAdapter.sort(new Comparator<RowData>() {
+                                    public int compare(RowData arg0, RowData arg1) {
+                                        return arg0.getSlot().compareTo(arg1.getSlot());
+                                    }
+                                });
+
+
+                                dataAdapter.notifyDataSetChanged();
                                 listView.setAdapter(dataAdapter);
 
 
@@ -143,9 +528,9 @@ public class DayAfter extends FragmentActivity {
 
 
 
-                    CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
+                    /*CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
                     listView.setAdapter(dataAdapter);
-
+*/
 
 
 
@@ -182,4 +567,6 @@ public class DayAfter extends FragmentActivity {
 
         }
     }
+
+
 }
