@@ -47,10 +47,19 @@ public class Welcome extends Activity {
                    startActivity(intent);
 
                }
+               if(position==1){
+                   Intent intent = new Intent(Welcome.this,DayAfter.class);
+                   startActivity(intent);
 
+               }
 
            }
+
        });
+
+
+
+
 
         logout = (Button) findViewById(R.id.logout);
 

@@ -26,11 +26,11 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
     private ArrayList<RowData> list,list1;int count=0;
     private  Context x;int posG;
     //this custom adapter receives an ArrayList of RowData objects.
-//RowData is my class that represents the data for a single row and could be anything.
+    //RowData is my class that represents the data for a single row and could be anything.
     public CustomArrayAdapter(Context context, int textViewResourceId, ArrayList<RowData> rowDataList)
     {
         //populate the local list with data.
-        super(context, textViewResourceId, rowDataList);
+        super(context,textViewResourceId, rowDataList);
         this.x=context;
         this.list = new ArrayList<RowData>();
         this.list.addAll(rowDataList);
@@ -43,7 +43,8 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
     {
         //creating the ViewHolder we defined earlier.
         final ViewHolder holder = new ViewHolder();
-
+        final String[] values = new String[] { "7am-8am Slot","8am-9am Slot","9am-10am Slot","10am-11am Slot","11am-12pm Slot",
+                "12pm-1pm Slot","1pm-2pm Slot","2pm-3pm Slot","3pm-4pm Slot","4pm-5pm Slot","5pm-6pm Slot","6pm-7pm Slot"};
         //creating LayoutInflator for inflating the row layout.
         LayoutInflater inflator = (LayoutInflater)x.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
@@ -52,8 +53,10 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
         convertView = inflator.inflate(R.layout.row, null);
 
         //setting the views into the ViewHolder.
+
         holder.title = (TextView) convertView.findViewById(R.id.tvslot);
-        holder.counter = (TextView) convertView.findViewById(R.id.tvstatus);
+
+        holder.counter = (TextView) convertView.findViewById(R.id.label);
 
 
 
@@ -64,8 +67,9 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
         //setting data into the the ViewHolder.
         ;
 
+        holder.title.setText(list1.get(position).getSlot());
 
-        holder.title.setText(list1.get(position).getTex());
+        holder.counter.setText(list1.get(position).getTex());
 
 
         //return the row view.
@@ -78,7 +82,6 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData>
 
         TextView title;
         TextView counter;
-        Button up,down;
-        ImageView changeRowStatus;
+
     }
 }
