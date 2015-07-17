@@ -45,9 +45,8 @@ public class Tomorrow extends FragmentActivity {
     RowData ob;
     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
-    ArrayList<String> array_list_posts;
+
     ArrayList<RowData> rowDataList;
-    ArrayAdapter<String> adapter;
     ListView listView;
     TextView tvslot;
 
@@ -89,8 +88,6 @@ public class Tomorrow extends FragmentActivity {
         c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
         SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
         outputDate = sdf1.format(c.getTime());
-
-
 
 
         final ParseUser currentUser = ParseUser.getCurrentUser();

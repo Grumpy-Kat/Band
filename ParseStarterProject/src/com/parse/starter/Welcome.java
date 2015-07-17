@@ -12,11 +12,25 @@ import android.app.Activity;
 
 import com.parse.ParseUser;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 /**
  * Created by kai on 8/7/15.
  */
 public class Welcome extends Activity {
-    Button logout,Book;
+    Button logout,MyBookedSlots;
+    SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+    // Get the date today using Calendar object.
+    Date today = Calendar.getInstance().getTime();
+    // Using DateFormat format method we can create a string
+// representation of a date with the defined format.
+    String reportDate = df.format(today);
+    String outputDate="";
+    String outputDate2="";
+    String outputDate3="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +41,43 @@ public class Welcome extends Activity {
 
         String struser = currentUser.getUsername().toString();
 
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+        Calendar c = Calendar.getInstance();
+
+        try {
+            c.setTime(sdf.parse(reportDate));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate = sdf1.format(c.getTime());
+
+
+        c.add(Calendar.DATE, 2);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf2 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate2 = sdf2.format(c.getTime());
+
+
+        c.add(Calendar.DATE, 3);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf3 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate3 = sdf3.format(c.getTime());
+
+
+
         TextView txtUser = (TextView) findViewById(R.id.txtuser);
-        txtUser.setText("You are logged in as " + struser);
+        txtUser.setText("Welcome " + struser);
 
         final ListView list = (ListView) findViewById(R.id.lvdates);
 
-        final String[] values = new String[] { "Tomorrow","DayAfter","Dayafter+1" }; // You have the necessary data to bind the list.
+        MyBookedSlots = (Button)findViewById(R.id.BookedSlot);
+
+        final String[] values = new String[] { outputDate,outputDate2,outputDate3 }; // You have the necessary data to bind the list.
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, android.R.id.text1, values); // You have set     the previous array to an adapter that can be now setted to a list.
+                R.layout.myrow, android.R.id.text1, values); // You have set     the previous array to an adapter that can be now setted to a list.
 
         list.setAdapter(adapter);
 
@@ -63,7 +105,13 @@ public class Welcome extends Activity {
        });
 
 
-
+        MyBookedSlots.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Welcome.this,BookedSlots.class);
+                startActivity(i);
+            }
+        });
 
 
         logout = (Button) findViewById(R.id.logout);

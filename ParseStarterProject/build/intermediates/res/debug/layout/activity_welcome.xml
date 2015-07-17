@@ -6,32 +6,46 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtuser"/>
+        android:id="@+id/txtuser"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select the date"/>
+        android:text="Select a suitable date to book your slot/slots"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
 
     <ListView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lvdates">
+        android:id="@+id/lvdates"
+        android:layout_gravity="center"
+        android:gravity="center">
 
     </ListView>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logout"
-        android:text="logout"/>
+        android:id="@+id/BookedSlot"
+        android:text="My Booked Slots"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/BookSlot"
-        android:text="Book Slot"/>
+        android:id="@+id/logout"
+        android:text="logout"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
 
 
 </LinearLayout><!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/res/layout/activity_welcome.xml -->

@@ -50,6 +50,10 @@
             android:name=".ThirdDay"
             android:label="@string/app_name" />
 
+        <activity
+            android:name=".BookedSlots"
+            android:label="My Booked Slots" />
+
 
 
     </application>

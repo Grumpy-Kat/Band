@@ -47,6 +47,9 @@
         <activity
             android:name="com.parse.starter.ThirdDay"
             android:label="@string/app_name" />
+        <activity
+            android:name="com.parse.starter.BookedSlots"
+            android:label="My Booked Slots" />
     </application>
 
 </manifest>
