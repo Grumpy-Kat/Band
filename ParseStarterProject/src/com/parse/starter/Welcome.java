@@ -1,14 +1,19 @@
 package com.parse.starter;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.app.Activity;
 
 import com.parse.ParseUser;
 
@@ -20,7 +25,7 @@ import java.util.Date;
 /**
  * Created by kai on 8/7/15.
  */
-public class Welcome extends Activity {
+public class Welcome extends FragmentActivity {
     Button logout,MyBookedSlots;
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     // Get the date today using Calendar object.
@@ -32,8 +37,16 @@ public class Welcome extends Activity {
     String outputDate2="";
     String outputDate3="";
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onBackPressed() {
+        super.onBackPressed();
+        LinearLayout lin = (LinearLayout) findViewById(R.id.mL);
+        lin.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
@@ -43,6 +56,7 @@ public class Welcome extends Activity {
 
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
         Calendar c = Calendar.getInstance();
+
 
         try {
             c.setTime(sdf.parse(reportDate));
@@ -56,15 +70,24 @@ public class Welcome extends Activity {
         outputDate = sdf1.format(c.getTime());
 
 
-        c.add(Calendar.DATE, 2);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
         SimpleDateFormat sdf2 = new SimpleDateFormat("MM/dd/yyyy");
         outputDate2 = sdf2.format(c.getTime());
 
 
-        c.add(Calendar.DATE, 3);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
         SimpleDateFormat sdf3 = new SimpleDateFormat("MM/dd/yyyy");
         outputDate3 = sdf3.format(c.getTime());
 
+        FragmentManager fm = getFragmentManager();
+        fm.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
+            @Override
+            public void onBackStackChanged() {
+                if(getFragmentManager().getBackStackEntryCount() == 0) finish();
+                LinearLayout lin = (LinearLayout) findViewById(R.id.mL);
+                lin.setVisibility(View.VISIBLE);
+            }
+        });
 
 
         TextView txtUser = (TextView) findViewById(R.id.txtuser);
@@ -85,18 +108,37 @@ public class Welcome extends Activity {
            @Override
            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                if(position==0){
-                   Intent intent = new Intent(Welcome.this,Tomorrow.class);
-                   startActivity(intent);
+                  /* Intent intent = new Intent(Welcome.this,Tomorrow.class);
+                   startActivity(intent);*/
+                   if (savedInstanceState == null) {
+                       Fragment fragment=null;
+                       fragment = new FTomorrow();
+                       loadFragment(fragment);
+
+                   }
 
                }
                if(position==1){
-                   Intent intent = new Intent(Welcome.this,DayAfter.class);
-                   startActivity(intent);
+                   /*Intent intent = new Intent(Welcome.this,DayAfter.class);
+                   startActivity(intent);*/
+                   if (savedInstanceState == null) {
+                      Fragment fragment=null;
+                       fragment = new ParallaxStikkyFragment();
+                       loadFragment(fragment);
+
+                   }
+
 
                }
                if(position==2){
-                   Intent intent = new Intent(Welcome.this,ThirdDay.class);
-                   startActivity(intent);
+                   /*Intent intent = new Intent(Welcome.this,ThirdDay.class);
+                   startActivity(intent);*/
+                   if (savedInstanceState == null) {
+                       Fragment fragment=null;
+                       fragment = new FThirdDay();
+                       loadFragment(fragment);
+
+                   }
 
                }
 
@@ -125,5 +167,21 @@ public class Welcome extends Activity {
             }
         });
     }
+
+
+    public void loadFragment(final Fragment fragment) {
+
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.letssee, fragment, fragment.getClass().getName())
+                .addToBackStack(fragment.getClass().getName())
+                .commit();
+        LinearLayout lin = (LinearLayout) findViewById(R.id.mL);
+        lin.setVisibility(View.INVISIBLE);
+
+
+    }
+
+
 }
 

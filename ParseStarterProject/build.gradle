@@ -16,14 +16,22 @@ dependencies {
     compile fileTree(dir: 'libs', include: 'Parse-*.jar')
     compile fileTree(dir: 'libs', include: 'ParseCrashReporting-*.jar')
     compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/Header2ActionBar-master/gradle/wrapper/gradle-wrapper.jar')
 }
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+dependencies {
+    compile 'com.github.carlonzo.stikkyheader:core:0.0.3-SNAPSHOT'
+}
+
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
+        minSdkVersion 11
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
 

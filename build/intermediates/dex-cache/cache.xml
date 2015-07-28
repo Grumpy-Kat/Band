@@ -2,32 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/internal_impl-21.0.3-271f1b6951071ecb9763d4dd707b96943513e962.jar" />
-    </item>
-    <item
-        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/libs/ParseCrashReporting-1.9.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
-        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/ParseCrashReporting-1.9.3-5793c74fded446883d8498dd96240fc3a2bd2689.jar" />
-    </item>
-    <item
-        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/classes-d1da2cb5204ed3c4e996ea6e0fada3d59c480d62.jar" />
-    </item>
-    <item
-        jar="/home/kai/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/support-annotations-21.0.3-bbc78b1f3edf7a6286c16eda8bd3ab25bbf4e053.jar" />
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/classes-6b3f29a2796c7a6e1c3e7898bb9e3664715e8148.jar" />
     </item>
     <item
         jar="/home/kai/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
@@ -42,6 +21,41 @@
         revision="22.0.0"
         sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
         <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/Parse-1.9.3-de56f952983b456b0f60e599a82562075b9f92ac.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="74c7d3a2feb4aa499e6799481bdbec19066449eb">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/classes-bea9aa7cc0f78935ab15fec51c2fb0d15e69ba9e.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/classes-8e02e1533bc26511a7619a948f5526bc92617eab.jar" />
+    </item>
+    <item
+        jar="/home/kai/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/support-annotations-22.2.0-9097648b0646f1850e33ae58939ebafb00e8157a.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/libs/ParseCrashReporting-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/ParseCrashReporting-1.9.3-5793c74fded446883d8498dd96240fc3a2bd2689.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/pre-dexed/release/internal_impl-22.2.0-cade5e982f7651f2c920ebf975caff0a701cdcb6.jar" />
     </item>
 
 </items>

@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,6 +39,8 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+
+
 /**
  * Created by kai on 16/7/15.
  */
@@ -50,7 +53,7 @@ public class DayAfter extends FragmentActivity {
     ArrayAdapter<String> adapter;
     ListView listView;
     TextView tvslot;
-
+    LinearLayout containerLayout;
     Boolean[] array = new Boolean[12];
     final String[] values = new String[] { "07am-08am","08am-09am","09am-10am","10am-11am","11am-12pm",
             "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm"};
@@ -73,7 +76,8 @@ public class DayAfter extends FragmentActivity {
 
         listView = (ListView)findViewById(R.id.list);
         tvslot=(TextView)findViewById(R.id.tvslot);
-        Arrays.fill(array, Boolean.FALSE);
+
+
 
 
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
@@ -447,6 +451,7 @@ public class DayAfter extends FragmentActivity {
                     });
 
                 }
+
                 CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
                 dataAdapter.sort(new Comparator<RowData>() {
                     public int compare(RowData arg0, RowData arg1) {
@@ -457,6 +462,7 @@ public class DayAfter extends FragmentActivity {
 
                 dataAdapter.notifyDataSetChanged();
                 listView.setAdapter(dataAdapter);
+
             }
         });
 
@@ -464,6 +470,17 @@ public class DayAfter extends FragmentActivity {
 
     public class Read extends AsyncTask<String, Integer, String> {
         ProgressDialog pDialog;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            Log.d("ASYNC", "GAWT IN POST");
+        }
 
         @Override
         protected String doInBackground(String... params) {
@@ -490,7 +507,7 @@ public class DayAfter extends FragmentActivity {
                                 rowDataList.add(ob);
 
 
-                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
+                               CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
                                 dataAdapter.sort(new Comparator<RowData>() {
                                     public int compare(RowData arg0, RowData arg1) {
                                         return arg0.getSlot().compareTo(arg1.getSlot());
@@ -498,8 +515,16 @@ public class DayAfter extends FragmentActivity {
                                 });
 
 
+
+
+
                                 dataAdapter.notifyDataSetChanged();
                                 listView.setAdapter(dataAdapter);
+
+
+
+
+
 
                             } else {
                                 ob = new RowData();
@@ -516,8 +541,13 @@ public class DayAfter extends FragmentActivity {
                                 });
 
 
+
                                 dataAdapter.notifyDataSetChanged();
                                 listView.setAdapter(dataAdapter);
+
+
+
+
 
 
                             }
@@ -547,25 +577,7 @@ public class DayAfter extends FragmentActivity {
 
         }
 
-        @Override
-        protected void onPreExecute() {
-            // Showing progress dialog before sending http request
 
-            /*pDialog = new ProgressDialog(DayAfter.this);
-            pDialog.setMessage("Please wait..");
-            pDialog.setIndeterminate(true);
-            pDialog.setCancelable(false);
-           // pDialog.show();*/
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            //pDialog.dismiss();
-
-
-
-        }
     }
 
 
