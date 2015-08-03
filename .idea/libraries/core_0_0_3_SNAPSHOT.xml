@@ -4,8 +4,8 @@
       <root url="jar://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

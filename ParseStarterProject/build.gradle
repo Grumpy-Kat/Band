@@ -4,7 +4,8 @@ apply plugin: 'com.parse'
 buildscript {
   repositories {
     mavenCentral()
-    maven { url 'https://maven.parse.com/repo' }
+
+      maven { url 'https://maven.parse.com/repo' }
   }
   dependencies {
     classpath 'com.parse.tools:gradle:1.+'
@@ -19,7 +20,8 @@ dependencies {
     compile files('libs/Header2ActionBar-master/gradle/wrapper/gradle-wrapper.jar')
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.+'
     compile 'info.hoang8f:android-segmented:1.0.5'
-
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0@aar'
 
 }
 repositories {

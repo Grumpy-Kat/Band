@@ -10,251 +10,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="675b17b8-d007-45d4-ae4f-28d7446afbf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ContactUs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tariff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_segmented_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\Parse-Starter-Project-1.9.3.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\generated\source\buildConfig\release\com\parse\starter\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\generated\source\r\release\android\support\v7\recyclerview\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\generated\source\r\release\com\parse\starter\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\generated\source\r\release\it\carlom\stikkyheader\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\Welcome$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\Welcome$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\android\support\v7\recyclerview\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\android\support\v7\recyclerview\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\android\support\v7\recyclerview\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\android\support\v7\recyclerview\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\android\support\v7\recyclerview\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BookedSlots$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BookedSlots$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BookedSlots$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BookedSlots$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BookedSlots.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\CustomArrayAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\CustomArrayAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\DayAfter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$13$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$13$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$13$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$ParallaxStikkyAnimator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FThirdDay.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$13$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$13$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$13$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$ParallaxStikkyAnimator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\FTomorrow.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\LoginSignupActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\LoginSignupActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\LoginSignupActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\LoginSignupActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\LoginSignupActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\MainFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$13$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$13$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$13$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$ParallaxStikkyAnimator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParallaxStikkyFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParseApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ParseStarterProjectActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\RowData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\ThirdDay.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$Read$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$Read$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$Read$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow$Read.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Tomorrow.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Welcome$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Welcome$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Welcome$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Welcome$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\com\parse\starter\Welcome.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\it\carlom\stikkyheader\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\it\carlom\stikkyheader\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\it\carlom\stikkyheader\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\it\carlom\stikkyheader\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\classes\release\it\carlom\stikkyheader\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\dex\release\classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\incremental\aidl\release\dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\incremental\mergeAssets\release\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\incremental\mergeResources\release\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\manifests\full\release\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\Parse-1.9.3-de56f952983b456b0f60e599a82562075b9f92ac.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\ParseCrashReporting-1.9.3-5793c74fded446883d8498dd96240fc3a2bd2689.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\bolts-android-1.2.0-92ec29d95765a6d17a7e7eae724d0db808debd46.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\classes-6b3f29a2796c7a6e1c3e7898bb9e3664715e8148.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\classes-8e02e1533bc26511a7619a948f5526bc92617eab.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\classes-bea9aa7cc0f78935ab15fec51c2fb0d15e69ba9e.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\internal_impl-22.2.0-cade5e982f7651f2c920ebf975caff0a701cdcb6.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\pre-dexed\release\support-annotations-22.2.0-9097648b0646f1850e33ae58939ebafb00e8157a.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-hdpi\ryuzaki.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-ldpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-mdpi\drum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-mdpi\guit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\activity_login_signup.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\activity_welcome.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\fragment_parallax.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\myrow.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\posts.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\row.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\layout\tomorrow.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\res\release\values\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\resources\resources-release.ap_" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\intermediates\symbols\release\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\outputs\apk\ParseStarterProject-release-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\outputs\lint-results-release-fatal.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\outputs\lint-results-release-fatal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\outputs\lint-results-release-fatal_files\hololike.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\Band\ParseStarterProject\build\outputs\logs\manifest-merger-release-report.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Band.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/niftydialogeffects_1_0_0.xml" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\FThirdDay$1$13$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\FTomorrow$1$13$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$11.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$12.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$13$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1$9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$ParallaxStikkyAnimator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$Read$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$Read$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$Read$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment$Read.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\classes\debug\com\parse\starter\ParallaxStikkyFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.3-9357b52689569251cf29cc903ad64ffd1ec95fc4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.3-0841a377b2c44f7a5b90a4cd0636cf76f3008260.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-93caab58ac3618dd3415af50f2b576918359fefb.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-4cca3b5e1e99b97345a633f50ec4a58266a3f8ef.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-5fa3809d9d839e2de368a8586b501af7e45e9165.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-79cca4bef70f54f26609a48e2dc76c5d6fe59f1d.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-e119e084bc697a440fbe21dc3a31a417a62f1591.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-e4eb7937ec6dff14fa68e99c20f651acd3bbb8f4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-b254e20d7de2e0f06f3d39803a1647a8f9ae1445.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" afterPath="" />
+      <change type="MOVED" beforePath="C:\Band\Band\ParseStarterProject\src\com\parse\starter\ParallaxStikkyFragment.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FDayAfter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/CustomArrayAdapter.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/CustomArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$13.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$6.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$7.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$8.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$9.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$13.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$1$4.class" />
@@ -274,10 +78,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$13.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$4.class" />
@@ -293,91 +93,37 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$2$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$6.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$7.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$8.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$9.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$ParallaxStikkyAnimator.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$ParallaxStikkyAnimator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment$Read.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParallaxStikkyFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParseStarterProjectActivity.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ParseStarterProjectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug-unaligned.apk" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$color.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$color.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$drawable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$drawable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$layout.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$string.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$string.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$style.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$style.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$6.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$7.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$8.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$9.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$6.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$7.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$8.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$9.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
@@ -385,40 +131,52 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/aapt/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aapt/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/aapt/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/androidTest/debug/com/parse/starter/test/BuildConfig.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/androidTest/debug/com/parse/starter/test/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/debug/com/parse/starter/BuildConfig.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/debug/com/parse/starter/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/LoginSignupActivity.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/LoginSignupActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" afterPath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParseStarterProjectActivity.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParseStarterProjectActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/parse/starter/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/parse/starter/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/info/hoang8f/android/segmented/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/info/hoang8f/android/segmented/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/it/carlom/stikkyheader/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/it/carlom/stikkyheader/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/pl/droidsonroids/gif/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/pl/droidsonroids/gif/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/RatingCompat.aidl" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/aidl/android/support/v4/media/RatingCompat.aidl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_login_signup.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_login_signup.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_welcome.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_gif_drawable_1_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_gif_drawable_1_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_segmented_1_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_segmented_1_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build.gradle" afterPath="$PROJECT_DIR$/ParseStarterProject/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/button_text_color.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/button_text_color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/button_text_color.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/button_text_color.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/core_0_0_3_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/core_0_0_3_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/fragment_parallax.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/fragment_parallax.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/homepage.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/homepage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/main.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/logs/manifest-merger-debug-report.txt" />
@@ -426,18 +184,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/myrow.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/myrow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/posts.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/posts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/radio_button_item.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/radio_button_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_checked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_checked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_checked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_checked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_unchecked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_unchecked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_unchecked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_unchecked.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/row.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/row.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/tomorrow.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/tomorrow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.8/res/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parse-Starter-Project-1.9.3.iws" />
@@ -466,97 +230,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="BookedSlots.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="227" column="56" selection-start-line="227" selection-start-column="56" selection-end-line="227" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FDayAfter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FDayAfter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="323" column="32" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Welcome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.74178404">
+              <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
+              <folding>
+                <element signature="e#3149#3372#0" expanded="true" />
+                <element signature="e#3371#3372#0" expanded="true" />
+                <element signature="e#3414#3636#0" expanded="true" />
+                <element signature="e#3635#3636#0" expanded="true" />
+                <element signature="e#5861#8481#0" expanded="true" />
+                <element signature="e#8480#8481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="activity_welcome.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state vertical-scroll-proportion="-7.034483">
+              <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Welcome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java">
+      <file leaf-file-name="FTomorrow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myrow.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/myrow.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/row.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_parallax.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/fragment_parallax.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FThirdDay.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45511812">
-              <caret line="188" column="86" selection-start-line="188" selection-start-column="86" selection-end-line="188" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThirdDay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ThirdDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="486" column="35" selection-start-line="486" selection-start-column="35" selection-end-line="486" selection-end-column="35" />
-              <folding />
+              <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+              <folding>
+                <element signature="e#5287#22836#0" expanded="true" />
+                <element signature="e#5747#7254#0" expanded="true" />
+                <element signature="e#7253#7254#0" expanded="true" />
+                <element signature="e#7655#8679#0" expanded="true" />
+                <element signature="e#8678#8679#0" expanded="true" />
+                <element signature="e#9079#10091#0" expanded="true" />
+                <element signature="e#10090#10091#0" expanded="true" />
+                <element signature="e#10492#11505#0" expanded="true" />
+                <element signature="e#11504#11505#0" expanded="true" />
+                <element signature="e#11905#12918#0" expanded="true" />
+                <element signature="e#12917#12918#0" expanded="true" />
+                <element signature="e#13317#14328#0" expanded="true" />
+                <element signature="e#14327#14328#0" expanded="true" />
+                <element signature="e#14727#15738#0" expanded="true" />
+                <element signature="e#15737#15738#0" expanded="true" />
+                <element signature="e#16137#17148#0" expanded="true" />
+                <element signature="e#17147#17148#0" expanded="true" />
+                <element signature="e#17547#18558#0" expanded="true" />
+                <element signature="e#18557#18558#0" expanded="true" />
+                <element signature="e#18957#19967#0" expanded="true" />
+                <element signature="e#19966#19967#0" expanded="true" />
+                <element signature="e#20367#21378#0" expanded="true" />
+                <element signature="e#21377#21378#0" expanded="true" />
+                <element signature="e#21777#22788#0" expanded="true" />
+                <element signature="e#22787#22788#0" expanded="true" />
+                <element signature="e#22835#22836#0" expanded="true" />
+                <element signature="e#23693#23694#0" expanded="true" />
+                <element signature="e#23737#23738#0" expanded="true" />
+                <element signature="e#24457#26662#0" expanded="true" />
+                <element signature="e#25176#25449#0" expanded="true" />
+                <element signature="e#25448#25449#0" expanded="true" />
+                <element signature="e#26170#26443#0" expanded="true" />
+                <element signature="e#26442#26443#0" expanded="true" />
+                <element signature="e#26661#26662#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1045,6 +809,11 @@
                 <option name="description" value="Prepare com.github.carlonzo.stikkyheader:core:0.0.3-SNAPSHOT" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComGithubCarlonzoStikkyheaderCore003SNAPSHOTLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGithubSd6352051NiftydialogeffectsNiftydialogeffects100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1588,6 +1357,11 @@
                 <option name="name" value="prepareComGithubCarlonzoStikkyheaderCore003SNAPSHOTLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ParseStarterProject" />
+                <option name="name" value="prepareComGithubSd6352051NiftydialogeffectsNiftydialogeffects100Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ParseStarterProject" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -1731,6 +1505,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4315808573444" />
         <entry key="C:\AndroidStudioProjects\Band" value="4314236819524" />
       </map>
     </option>
@@ -1915,10 +1690,14 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/pl.droidsonroids.gif/android-gif-drawable/1.1.8/751845b9b4ebeccbe5b0d351df8263ca9f191a42/android-gif-drawable-1.1.8.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.hoang8f/android-segmented/1.0.5/4e51f06e37d971b68014e1f2d323b5061bcd7535/android-segmented-1.0.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.hoang8f/android-segmented/1.0.5/6eefab3a0143ea77d85558488816c0bd782b1341/android-segmented-1.0.5.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/83d41901478fa8795254244acbafd03f14224dab/library-2.4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/6e228d4ca42e703ee015783a6ba22194f0d8ddbd/niftydialogeffects-1.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/10ef2c9b42ce3085b0913123a70ce52e272a08c4/niftydialogeffects-1.0.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.carlonzo.stikkyheader/core/0.0.3-SNAPSHOT/3876a8d609d2f8bb49d258ef15c09667516104e9/core-0.0.3-SNAPSHOT.aar" />
-                            <option value="C:/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/22.2.0/recyclerview-v7-22.2.0.aar" />
-                            <option value="C:/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar" />
-                            <option value="C:/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/22.2.0/recyclerview-v7-22.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0.aar" />
                             <option value="$MODULE_DIR$/libs/Parse-1.9.3.jar" />
                             <option value="$MODULE_DIR$/libs/ParseCrashReporting-1.9.3.jar" />
                             <option value="$MODULE_DIR$/libs/Header2ActionBar-master/gradle/wrapper/gradle-wrapper.jar" />
@@ -1972,117 +1751,6 @@
               <option name="name" value="Band" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/announce" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/antlr" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/base-services" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/base-services-groovy" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/build-comparison" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/build-init" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/cli" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/code-quality" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/core" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/dependency-management" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/diagnostics" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ear" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ide" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ide-native" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/internal-integ-testing" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/internal-testing" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ivy" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/jacoco" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/javascript" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/jetty" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-groovy" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-java" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-jvm" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-native" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-scala" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/launcher" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/maven" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/messaging" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/model-core" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/model-groovy" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/native" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/open-api" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/osgi" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-base" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-jvm" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-native" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-play" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugin-development" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugin-use" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugins" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/publish" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/reporting" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-http" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-s3" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-sftp" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/scala" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/signing" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/sonar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/testing-native" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/tooling-api" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/tooling-api-builders" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ui" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/wrapper" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/ant-1.9.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/ant-launcher-1.9.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-base-services-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-base-services-groovy-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-cli-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-core-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-docs-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-launcher-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-messaging-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-model-core-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-model-groovy-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-native-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-open-api-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-resources-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-tooling-api-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-ui-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-wrapper-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/groovy-all-2.3.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-announce-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-antlr-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-build-comparison-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-build-init-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-code-quality-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-dependency-management-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-diagnostics-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ear-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ide-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ide-native-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ivy-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-jacoco-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-javascript-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-jetty-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-groovy-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-java-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-jvm-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-native-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-scala-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-maven-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-osgi-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-base-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-jvm-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-native-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-play-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugin-development-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugin-use-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugins-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-publish-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-reporting-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-http-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-s3-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-sftp-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-scala-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-signing-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-sonar-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-testing-native-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-tooling-api-builders-2.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2105,13 +1773,11 @@
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/tomorrow.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParseApplication.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/CustomArrayAdapter/Java.java" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/CustomArrayAdapter.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/row.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ThirdDay.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tomorrow.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/RowData.java" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/myrow.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/TestActivity.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
@@ -2125,9 +1791,6 @@
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/simple_header.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/fragment_parallax.xml" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParallaxStikkyFragment.java" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tariff.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ContactUs.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/LoginSignupActivity.java" />
@@ -2135,9 +1798,14 @@
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParallaxStikkyFragment.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/build.gradle" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" />
       </list>
     </option>
   </component>
@@ -2147,8 +1815,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2173,6 +1841,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2244,10 +1915,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2285,15 +1952,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -2309,7 +1973,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Upload" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4100160e8de3cf00" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="CC51GYC02058" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -2345,15 +2009,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -2375,15 +2034,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2399,6 +2053,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2481,15 +2151,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
       <method />
     </configuration>
     <list size="1">
@@ -2526,24 +2191,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451093" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32444444" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32444444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23705408" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2588889" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2512225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21908316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -2554,7 +2220,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2576,14 +2241,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2600,18 +2257,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="67" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="67" />
           <folding>
-            <element signature="e#598#616#0" expanded="true" />
-            <element signature="e#777#799#0" expanded="true" />
-            <element signature="e#896#922#0" expanded="true" />
-            <element signature="e#1027#1045#0" expanded="true" />
-            <element signature="e#1352#1370#0" expanded="true" />
-            <element signature="e#1681#1699#0" expanded="true" />
-            <element signature="e#2007#2025#0" expanded="true" />
-            <element signature="e#2336#2354#0" expanded="true" />
-            <element signature="e#2676#2694#0" expanded="true" />
-            <element signature="e#2780#2798#0" expanded="true" />
-            <element signature="e#2885#2903#0" expanded="true" />
-            <element signature="e#2989#3007#0" expanded="true" />
+            <element signature="e#598#616#0" expanded="false" />
+            <element signature="e#777#799#0" expanded="false" />
+            <element signature="e#896#922#0" expanded="false" />
+            <element signature="e#1027#1045#0" expanded="false" />
+            <element signature="e#1352#1370#0" expanded="false" />
+            <element signature="e#1681#1699#0" expanded="false" />
+            <element signature="e#2007#2025#0" expanded="false" />
+            <element signature="e#2336#2354#0" expanded="false" />
+            <element signature="e#2676#2694#0" expanded="false" />
+            <element signature="e#2780#2798#0" expanded="false" />
+            <element signature="e#2885#2903#0" expanded="false" />
+            <element signature="e#2989#3007#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2677,7 +2334,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#3149#3372#0" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3414#3636#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#5861#8481#0" expanded="true" />
+            <element signature="e#8480#8481#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2735,7 +2399,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#3149#3372#0" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3414#3636#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#5861#8481#0" expanded="true" />
+            <element signature="e#8480#8481#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2779,13 +2450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/RowData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0704501">
@@ -2804,24 +2468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_login_signup.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56551725">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60728747">
-          <caret line="453" column="16" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2830,13 +2476,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/CustomArrayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5482234">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2875,31 +2514,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5086614">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
-            <element signature="e#598#616#0" expanded="true" />
-            <element signature="e#777#799#0" expanded="true" />
-            <element signature="e#896#922#0" expanded="true" />
-            <element signature="e#1027#1045#0" expanded="true" />
-            <element signature="e#1352#1370#0" expanded="true" />
-            <element signature="e#1681#1699#0" expanded="true" />
-            <element signature="e#2007#2025#0" expanded="true" />
-            <element signature="e#2336#2354#0" expanded="true" />
-            <element signature="e#2676#2694#0" expanded="true" />
-            <element signature="e#2780#2798#0" expanded="true" />
-            <element signature="e#2885#2903#0" expanded="true" />
-            <element signature="e#2989#3007#0" expanded="true" />
+            <element signature="e#598#616#0" expanded="false" />
+            <element signature="e#777#799#0" expanded="false" />
+            <element signature="e#896#922#0" expanded="false" />
+            <element signature="e#1027#1045#0" expanded="false" />
+            <element signature="e#1352#1370#0" expanded="false" />
+            <element signature="e#1681#1699#0" expanded="false" />
+            <element signature="e#2007#2025#0" expanded="false" />
+            <element signature="e#2336#2354#0" expanded="false" />
+            <element signature="e#2676#2694#0" expanded="false" />
+            <element signature="e#2780#2798#0" expanded="false" />
+            <element signature="e#2885#2903#0" expanded="false" />
+            <element signature="e#2989#3007#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2929,14 +2560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91023624">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ParseStarterProjectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5622047">
@@ -2944,40 +2567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/RowData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4015749">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.17867868">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2993,13 +2586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/row.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/CustomArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.025525525">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3009,8 +2599,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.35949764">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/row.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6530612">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3018,16 +2627,137 @@
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ThirdDay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="486" column="35" selection-start-line="486" selection-start-column="35" selection-end-line="486" selection-end-column="35" />
+          <caret line="548" column="31" selection-start-line="548" selection-start-column="31" selection-end-line="548" selection-end-column="31" />
+          <folding>
+            <element signature="e#21483#23685#0" expanded="true" />
+            <element signature="e#23684#23685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_login_signup.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3555133">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/posts.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1147541">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FThirdDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45511812">
-          <caret line="188" column="86" selection-start-line="188" selection-start-column="86" selection-end-line="188" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.8826291">
+          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+          <folding>
+            <element signature="e#20416#21423#0" expanded="true" />
+            <element signature="e#21422#21423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29264477">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FDayAfter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="323" column="32" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.034483">
+          <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+          <folding>
+            <element signature="e#5287#22836#0" expanded="true" />
+            <element signature="e#5747#7254#0" expanded="true" />
+            <element signature="e#7253#7254#0" expanded="true" />
+            <element signature="e#7655#8679#0" expanded="true" />
+            <element signature="e#8678#8679#0" expanded="true" />
+            <element signature="e#9079#10091#0" expanded="true" />
+            <element signature="e#10090#10091#0" expanded="true" />
+            <element signature="e#10492#11505#0" expanded="true" />
+            <element signature="e#11504#11505#0" expanded="true" />
+            <element signature="e#11905#12918#0" expanded="true" />
+            <element signature="e#12917#12918#0" expanded="true" />
+            <element signature="e#13317#14328#0" expanded="true" />
+            <element signature="e#14327#14328#0" expanded="true" />
+            <element signature="e#14727#15738#0" expanded="true" />
+            <element signature="e#15737#15738#0" expanded="true" />
+            <element signature="e#16137#17148#0" expanded="true" />
+            <element signature="e#17147#17148#0" expanded="true" />
+            <element signature="e#17547#18558#0" expanded="true" />
+            <element signature="e#18557#18558#0" expanded="true" />
+            <element signature="e#18957#19967#0" expanded="true" />
+            <element signature="e#19966#19967#0" expanded="true" />
+            <element signature="e#20367#21378#0" expanded="true" />
+            <element signature="e#21377#21378#0" expanded="true" />
+            <element signature="e#21777#22788#0" expanded="true" />
+            <element signature="e#22787#22788#0" expanded="true" />
+            <element signature="e#22835#22836#0" expanded="true" />
+            <element signature="e#23693#23694#0" expanded="true" />
+            <element signature="e#23737#23738#0" expanded="true" />
+            <element signature="e#24457#26662#0" expanded="true" />
+            <element signature="e#25176#25449#0" expanded="true" />
+            <element signature="e#25448#25449#0" expanded="true" />
+            <element signature="e#26170#26443#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26661#26662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="56" selection-start-line="227" selection-start-column="56" selection-end-line="227" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74178404">
+          <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
+          <folding>
+            <element signature="e#3149#3372#0" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3414#3636#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#5861#8481#0" expanded="true" />
+            <element signature="e#8480#8481#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

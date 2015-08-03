@@ -16,6 +16,7 @@ ADDED from AndroidManifest.xml:7:5
 MERGED from com.android.support:support-v4:22.2.0:20:5
 MERGED from pl.droidsonroids.gif:android-gif-drawable:1.1.8:6:5
 MERGED from info.hoang8f:android-segmented:1.0.5:7:5
+MERGED from com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0:7:5
 MERGED from com.github.carlonzo.stikkyheader:core:0.0.3-SNAPSHOT:6:5
 MERGED from com.android.support:recyclerview-v7:22.2.0:20:5
 MERGED from com.android.support:support-v4:22.2.0:20:5
@@ -38,6 +39,7 @@ ADDED from AndroidManifest.xml:12:5
 application
 ADDED from AndroidManifest.xml:14:5
 MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0:11:5
 MERGED from com.github.carlonzo.stikkyheader:core:0.0.3-SNAPSHOT:10:5
 MERGED from com.android.support:support-v4:22.2.0:22:5
 	android:label

@@ -2,17 +2,47 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_posts"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/rl_posts"
     tools:context=".MainActivity">
 
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tomorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dayafter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/thirdday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
         android:textColor="#000000">
 
     </ListView>
-</RelativeLayout><!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/layout/posts.xml -->
+</RelativeLayout><!-- From: file:/C:/Band/Band/ParseStarterProject/res/layout/posts.xml -->

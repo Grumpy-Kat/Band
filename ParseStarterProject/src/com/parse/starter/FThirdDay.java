@@ -174,6 +174,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "07am-08am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -205,6 +206,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "08am-09am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
 
@@ -233,6 +235,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "09am-10am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -260,6 +263,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "10am-11am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -287,6 +291,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "11am-12pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -314,6 +319,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "12pm-1pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -341,6 +347,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "1pm-2pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -369,6 +376,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "2pm-3pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -397,6 +405,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "3pm-4pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -424,6 +433,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "4pm-5pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -451,6 +461,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "5pm-6pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -478,6 +489,7 @@ public class FThirdDay extends Fragment {
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "6pm-7pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -485,119 +497,6 @@ public class FThirdDay extends Fragment {
                     });
 
                 }
-                if(position>0){
-                    //getActivity().getFragmentManager().beginTransaction().remove(this).commit();
-                    //getActivity().getSupportFragmentManager().popBackStack();
-                    Handler mHandler = new Handler();
-                    mHandler.postDelayed(new Runnable() {
-                        public void run() {
-                            try {
-
-
-                                rowDataList = new ArrayList<RowData>(12);
-                                for(int i =0;i<12;i++){
-                                    ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-
-                                    query.whereEqualTo("bookedSlots", values[i]);
-                                    query.whereEqualTo("bookedDate", outputDate);
-                                    final int finalI = i;
-                                    query.findInBackground(new FindCallback<ParseObject>() {
-                                        public void done(List<ParseObject> scoreList, ParseException e) {
-                                            if (scoreList.size() > 0) {
-                                                ob = new RowData();
-                                                ob.setSlot(values[finalI]);
-                                                ob.setTex("Busy");
-                                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                                rowDataList.add(ob);
-
-
-                                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
-                                                dataAdapter.sort(new Comparator<RowData>() {
-                                                    public int compare(RowData arg0, RowData arg1) {
-                                                        return arg0.getSlot().compareTo(arg1.getSlot());
-                                                    }
-                                                });
-
-
-
-
-                                                dataAdapter.notifyDataSetChanged();
-                                                mListView.setAdapter(dataAdapter);
-
-
-
-
-
-
-
-                                            } else {
-                                                ob = new RowData();
-                                                ob.setSlot(values[finalI]);
-                                                ob.setTex("available");
-                                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                                rowDataList.add(ob);
-                                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
-                                                dataAdapter.sort(new Comparator<RowData>() {
-                                                    public int compare(RowData arg0, RowData arg1) {
-                                                        return arg0.getSlot().compareTo(arg1.getSlot());
-                                                    }
-                                                });
-
-
-
-                                                dataAdapter.notifyDataSetChanged();
-                                                dataAdapter.notifyDataSetChanged();
-                                                mListView.setAdapter(dataAdapter);
-
-
-
-
-
-
-                                            }
-                                        }
-                                    });
-
-                                }
-
-
-
-
-
-
-                                //*CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
-                                //listView.setAdapter(dataAdapter);
-
-
-
-
-
-
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                            }
-
-                        }
-                    }, 1000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                }
-
-
 
 
             }

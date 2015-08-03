@@ -1,34 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="radio_button_selected_color">#ff33b5e5</color>
     <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="text_color">#FFFFFF</color>
     <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
     <declare-styleable name="GifView"><attr format="boolean" name="freezesAnimation"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SegmentedGroup"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="tint_color"/><attr format="color" name="checked_text_color"/></declare-styleable>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/dimens.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="dialog_padding">25dp</dimen>
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/dimens.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="radio_button_conner_radius">5dp</dimen>
     <dimen name="radio_button_stroke_border">1dp</dimen>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">ParseStarterProject</string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="parse_app_id">hi</string>
     <string name="parse_client_key">yola</string>
-    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml -->
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml -->
     <eat-comment/>
     <style name="RadioButton">
         <item name="android:textColor">@drawable/button_text_color</item>
@@ -38,5 +57,30 @@
         <item name="android:button">@null</item>
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingRight">5dp</item>
+    </style>
+    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="dialog_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_untran" parent="dialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
 </resources>

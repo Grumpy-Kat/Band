@@ -35,7 +35,6 @@ import it.carlom.stikkyheader.core.animator.AnimatorBuilder;
 import it.carlom.stikkyheader.core.animator.HeaderStikkyAnimator;
 
 
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -86,17 +85,21 @@ public class FTomorrow extends Fragment {
     TextView tvslot;
     LinearLayout containerLayout;
     Boolean[] array = new Boolean[12];
-    final String[] values = new String[] { "07am-08am","08am-09am","09am-10am","10am-11am","11am-12pm",
-            "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm"};
+    final String[] values = new String[]{"07am-08am", "08am-09am", "09am-10am", "10am-11am", "11am-12pm",
+            "12pm-1pm", "1pm-2pm", "2pm-3pm", "3pm-4pm", "4pm-5pm", "5pm-6pm", "6pm-7pm"};
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     // Get the date today using Calendar object.
     Date today = Calendar.getInstance().getTime();
     // Using DateFormat format method we can create a string
 // representation of a date with the defined format.
     String reportDate = df.format(today);
-    String outputDate="";
+    String outputDate = "";
     TextView headerDate;
     CustomArrayAdapter dataAdapter;
+
+
+    int yamaha, guitar6, fender, bass5, ejam, ejamMix, drummidi, drumidiediting, drumprogramming, greamping, editingsession, mastering, mixing;
+
 
     private ListView mListView;
 
@@ -115,6 +118,8 @@ public class FTomorrow extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+
         return inflater.inflate(R.layout.fragment_parallax, container, false);
 
     }
@@ -123,7 +128,27 @@ public class FTomorrow extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+
+        Bundle bundle = getArguments();
+        yamaha = bundle.getInt("Yamaha");
+        Toast.makeText(getActivity(), " " + yamaha, Toast.LENGTH_LONG).show();
+
+
+        guitar6 = bundle.getInt("6Guitar");
+        fender = bundle.getInt("FenderGuitar");
+        bass5 = bundle.getInt("5Bass");
+        ejam = bundle.getInt("Ejam");
+        ejamMix = bundle.getInt("EjamSeparate");
+//        drummidi = bundle.getInt("Yamaha");
+//        drumidiediting = bundle.getInt("Yamaha");
+//        drumprogramming = bundle.getInt("Yamaha");
+//        greamping = bundle.getInt("Yamaha");
+//        editingsession = bundle.getInt("Yamaha");
+//        mastering = bundle.getInt("Yamaha");
+//        mixing = bundle.getInt("Yamaha");
+
         mListView = (ListView) view.findViewById(R.id.lv1);
+
 
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
         Calendar c = Calendar.getInstance();
@@ -140,27 +165,23 @@ public class FTomorrow extends Fragment {
         outputDate = sdf1.format(c.getTime());
 
 
-
-
-
         final ParseUser currentUser = ParseUser.getCurrentUser();
         final String struser = currentUser.getUsername().toString();
         new Read().execute();
-
 
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, final int position, long l) {
 
-                if(position==1) {
+                if (position == 1) {
                     final ParseObject gameScore = new ParseObject("dbBand");
 
                     query.whereEqualTo("bookedSlots", "07am-08am");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Log.d("score", "Retrieved " + scoreList.size() + " scores");
                                 Toast.makeText(getActivity(),
                                         "Slot is busy" + position,
@@ -168,13 +189,23 @@ public class FTomorrow extends Fragment {
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+position,
+                                        "Success" + position,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "07am-08am");
+
+
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
+
                                 gameScore.saveInBackground();
 
+                                new Read().execute();
 
                             }
                         }
@@ -182,30 +213,27 @@ public class FTomorrow extends Fragment {
                 }
 
 
-
-
-
-                if(position==2){
+                if (position == 2) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "08am-09am");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
-                                        "Slot is busy"+position,
+                                        "Slot is busy" + position,
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "08am-09am");
                                 gameScore.saveInBackground();
-
+                                new Read().execute();
 
 
                             }
@@ -213,26 +241,27 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position==3){
+                if (position == 3) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "09am-10am");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "09am-10am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -240,26 +269,27 @@ public class FTomorrow extends Fragment {
 
 
                 }
-                if(position==4){
+                if (position == 4) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "10am-11am");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "10am-11am");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -267,26 +297,27 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position==5){
+                if (position == 5) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "11am-12pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "11am-12pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -294,26 +325,27 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position==6){
+                if (position == 6) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "12pm-1pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "12pm-1pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -321,26 +353,27 @@ public class FTomorrow extends Fragment {
 
                 }
 
-                if(position==7){
+                if (position == 7) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "1pm-2pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "1pm-2pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -349,26 +382,27 @@ public class FTomorrow extends Fragment {
 
                 }
 
-                if(position==8){
+                if (position == 8) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "2pm-3pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "2pm-3pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -377,26 +411,27 @@ public class FTomorrow extends Fragment {
 
                 }
 
-                if(position==9){
+                if (position == 9) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "3pm-4pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "3pm-4pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -404,26 +439,27 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position==10){
+                if (position == 10) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "4pm-5pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "4pm-5pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
                             }
                         }
@@ -431,26 +467,27 @@ public class FTomorrow extends Fragment {
 
                 }
 
-                if(position==11){
+                if (position == 11) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "5pm-6pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "5pm-6pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -458,26 +495,27 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position==12){
+                if (position == 12) {
                     //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
                     final ParseObject gameScore = new ParseObject("dbBand");
                     query.whereEqualTo("bookedSlots", "6pm-7pm");
                     query.whereEqualTo("bookedDate", outputDate);
                     query.findInBackground(new FindCallback<ParseObject>() {
                         public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                            if (scoreList.size() > 0) {
                                 Toast.makeText(getActivity(),
                                         "Slot is busy",
                                         Toast.LENGTH_SHORT).show();
 
                             } else {
                                 Toast.makeText(getActivity(),
-                                        "Success"+outputDate,
+                                        "Success" + outputDate,
                                         Toast.LENGTH_SHORT).show();
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "6pm-7pm");
                                 gameScore.saveInBackground();
+                                new Read().execute();
 
 
                             }
@@ -485,126 +523,11 @@ public class FTomorrow extends Fragment {
                     });
 
                 }
-                if(position>0){
-                    //getActivity().getFragmentManager().beginTransaction().remove(this).commit();
-                    //getActivity().getSupportFragmentManager().popBackStack();
-                   Handler mHandler = new Handler();
-                    mHandler.postDelayed(new Runnable() {
-                        public void run() {
-                            try {
-
-
-                                rowDataList = new ArrayList<RowData>(12);
-                                for(int i =0;i<12;i++){
-                                    ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-
-                                    query.whereEqualTo("bookedSlots", values[i]);
-                                    query.whereEqualTo("bookedDate", outputDate);
-                                    final int finalI = i;
-                                    query.findInBackground(new FindCallback<ParseObject>() {
-                                        public void done(List<ParseObject> scoreList, ParseException e) {
-                                            if (scoreList.size() > 0) {
-                                                ob = new RowData();
-                                                ob.setSlot(values[finalI]);
-                                                ob.setTex("Busy");
-                                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                                rowDataList.add(ob);
-
-
-                                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
-                                                dataAdapter.sort(new Comparator<RowData>() {
-                                                    public int compare(RowData arg0, RowData arg1) {
-                                                        return arg0.getSlot().compareTo(arg1.getSlot());
-                                                    }
-                                                });
-
-
-
-
-                                                dataAdapter.notifyDataSetChanged();
-                                                mListView.setAdapter(dataAdapter);
-
-
-
-
-
-
-
-                                            } else {
-                                                ob = new RowData();
-                                                ob.setSlot(values[finalI]);
-                                                ob.setTex("available");
-                                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                                rowDataList.add(ob);
-                                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
-                                                dataAdapter.sort(new Comparator<RowData>() {
-                                                    public int compare(RowData arg0, RowData arg1) {
-                                                        return arg0.getSlot().compareTo(arg1.getSlot());
-                                                    }
-                                                });
-
-
-
-                                                dataAdapter.notifyDataSetChanged();
-                                                dataAdapter.notifyDataSetChanged();
-                                                mListView.setAdapter(dataAdapter);
-
-
-
-
-
-
-                                            }
-                                        }
-                                    });
-
-                                }
-
-
-
-
-
-
-                                //*CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
-                                //listView.setAdapter(dataAdapter);
-
-
-
-
-
-
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                            }
-
-                        }
-                    }, 1000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                }
-
-
 
 
             }
 
         });
-
-
 
 
     }
@@ -620,10 +543,7 @@ public class FTomorrow extends Fragment {
                 .build();
 
 
-
-
     }
-
 
 
     private class ParallaxStikkyAnimator extends HeaderStikkyAnimator {
@@ -658,7 +578,7 @@ public class FTomorrow extends Fragment {
 
 
                 rowDataList = new ArrayList<RowData>(12);
-                for(int i =0;i<12;i++){
+                for (int i = 0; i < 12; i++) {
                     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
                     query.whereEqualTo("bookedSlots", values[i]);
@@ -675,7 +595,7 @@ public class FTomorrow extends Fragment {
                                 rowDataList.add(ob);
 
 
-                               CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
+                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
                                 dataAdapter.sort(new Comparator<RowData>() {
                                     public int compare(RowData arg0, RowData arg1) {
                                         return arg0.getSlot().compareTo(arg1.getSlot());
@@ -683,15 +603,8 @@ public class FTomorrow extends Fragment {
                                 });
 
 
-
-
-
                                 dataAdapter.notifyDataSetChanged();
                                 mListView.setAdapter(dataAdapter);
-
-
-
-
 
 
                             } else {
@@ -701,7 +614,7 @@ public class FTomorrow extends Fragment {
                                 Log.d(ob.getTex(), "GOT TEXT BOYSA ");
                                 Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
                                 rowDataList.add(ob);
-                               CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
+                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(getActivity(), R.id.label, rowDataList);
                                 dataAdapter.sort(new Comparator<RowData>() {
                                     public int compare(RowData arg0, RowData arg1) {
                                         return arg0.getSlot().compareTo(arg1.getSlot());
@@ -709,13 +622,8 @@ public class FTomorrow extends Fragment {
                                 });
 
 
-
                                 dataAdapter.notifyDataSetChanged();
                                 mListView.setAdapter(dataAdapter);
-
-
-
-
 
 
                             }
@@ -731,16 +639,11 @@ public class FTomorrow extends Fragment {
 */
 
 
-
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
             return null;
-
-
 
 
         }

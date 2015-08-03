@@ -1,18 +1,18 @@
 package com.parse.starter;
 
 import android.app.FragmentManager;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RadioButton;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.parse.ParseUser;
@@ -36,7 +36,13 @@ public class Welcome extends FragmentActivity {
     String outputDate = "";
     String outputDate2 = "";
     String outputDate3 = "";
-
+    RadioButton basic;
+    RadioButton production;
+    LinearLayout basicll;
+    LinearLayout productionll;
+    ScrollView basicS, productionS;
+    Bundle bundle;
+    CheckBox yamaha, guitar6, fender, bass5, ejam, ejamMix, drumMidi, drumMidiEditing, drumProgramming, gReamping, editingSession, mixing, mastering;
 
     @Override
     public void onBackPressed() {
@@ -49,6 +55,47 @@ public class Welcome extends FragmentActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+        basic = (RadioButton) findViewById(R.id.button21);
+        production = (RadioButton) findViewById(R.id.button22);
+
+        basicll = (LinearLayout) findViewById(R.id.basic);
+        productionll = (LinearLayout) findViewById(R.id.production);
+        basicS = (ScrollView) findViewById(R.id.scroll1);
+        productionS = (ScrollView) findViewById(R.id.scroll2);
+
+        //Checkboxes
+        yamaha = (CheckBox) findViewById(R.id.Yamaha);
+        guitar6 = (CheckBox) findViewById(R.id.Guitar6String);
+        fender = (CheckBox) findViewById(R.id.GuitarAcoustic);
+        bass5 = (CheckBox) findViewById(R.id.Bass);
+        ejam = (CheckBox) findViewById(R.id.recordentirejam);
+        ejamMix = (CheckBox) findViewById(R.id.recordentirejamandstuff);
+        drumMidi = (CheckBox) findViewById(R.id.drummidi);
+        drumMidiEditing = (CheckBox) findViewById(R.id.drummidiediting);
+        drumProgramming = (CheckBox) findViewById(R.id.drumprogramming);
+        gReamping = (CheckBox) findViewById(R.id.guitarbassreamping);
+        editingSession = (CheckBox) findViewById(R.id.editingofsession);
+        mixing = (CheckBox) findViewById(R.id.Mixing);
+        mastering = (CheckBox) findViewById(R.id.mastering);
+        bundle = new Bundle();
+
+        basic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                productionS.setVisibility(View.GONE);
+                basicS.setVisibility(View.VISIBLE);
+
+            }
+        });
+
+        production.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                basicS.setVisibility(View.GONE);
+                productionS.setVisibility(View.VISIBLE);
+            }
+        });
 
         ParseUser currentUser = ParseUser.getCurrentUser();
 
@@ -111,8 +158,35 @@ public class Welcome extends FragmentActivity {
                   /* Intent intent = new Intent(Welcome.this,Tomorrow.class);
                    startActivity(intent);*/
                     if (savedInstanceState == null) {
+                        if (yamaha.isChecked())
+                            bundle.putInt("Yamaha", 50);
+                        else
+                            bundle.putInt("Yamaha", 0);
+                        if (guitar6.isChecked())
+                            bundle.putInt("6Guitar", 50);
+                        else
+                            bundle.putInt("6Guitar", 0);
+                        if (fender.isChecked())
+                            bundle.putInt("FenderGuitar", 50);
+                        else
+                            bundle.putInt("FenderGuitar", 0);
+                        if (bass5.isChecked())
+                            bundle.putInt("5Bass", 50);
+                        else
+                            bundle.putInt("5Bass", 0);
+                        if (ejam.isChecked())
+
+                            bundle.putInt("Ejam", 100);
+                        else
+                            bundle.putInt("Ejam", 0);
+
+                        if (ejamMix.isChecked())
+                            bundle.putInt("EjamSeparate", 150);
+                        else
+                            bundle.putInt("EjamSeparate", 0);
                         Fragment fragment = null;
                         fragment = new FTomorrow();
+                        fragment.setArguments(bundle);
                         loadFragment(fragment);
 
                     }
@@ -123,7 +197,7 @@ public class Welcome extends FragmentActivity {
                    startActivity(intent);*/
                     if (savedInstanceState == null) {
                         Fragment fragment = null;
-                        fragment = new ParallaxStikkyFragment();
+                        fragment = new FDayAfter();
                         loadFragment(fragment);
 
                     }

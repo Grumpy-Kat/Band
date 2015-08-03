@@ -46,6 +46,7 @@
                 style="@style/RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="Basic" />
 
             <RadioButton
@@ -65,6 +66,135 @@
             android:gravity="center">
 
         </ListView>
+
+        <ScrollView
+            android:id="@+id/scroll1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/basic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Addons at Rs.50 per hour" />
+
+                <CheckBox
+                    android:id="@+id/Yamaha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yamaha PSR 2100 Keyboard" />
+
+                <CheckBox
+                    android:id="@+id/Guitar6String"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 String Ibanex Guitar" />
+
+                <CheckBox
+                    android:id="@+id/GuitarAcoustic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fender Acoustic Guitar" />
+
+                <CheckBox
+                    android:id="@+id/Bass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 String Bass" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Addons at Rs.100 per hour" />
+
+                <CheckBox
+                    android:id="@+id/recordentirejam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recording Entire Jam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Addons at Rs.150 per hour" />
+
+                <CheckBox
+                    android:id="@+id/recordentirejamandstuff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recording Entire Jam + Separate Files of each instrument for future mixing" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scroll2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/production"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Addons at Rs.2000 per hour" />
+
+                <CheckBox
+                    android:id="@+id/drummidi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drum Midi Replacement using High Quality Presets" />
+
+                <CheckBox
+                    android:id="@+id/drummidiediting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drum Midi Editing (Dynamics,Ghost notes,cymbal selection,adding fills/rolls" />
+
+                <CheckBox
+                    android:id="@+id/drumprogramming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drum Programming from scratch" />
+
+                <CheckBox
+                    android:id="@+id/guitarbassreamping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guitar/Bass Reamping" />
+
+                <CheckBox
+                    android:id="@+id/editingofsession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Editing Of Session" />
+
+                <CheckBox
+                    android:id="@+id/Mixing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mixing" />
+
+                <CheckBox
+                    android:id="@+id/mastering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mastering" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
 
 
     </LinearLayout>

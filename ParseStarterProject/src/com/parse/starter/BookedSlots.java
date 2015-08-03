@@ -5,16 +5,24 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.gitonway.lee.niftymodaldialogeffects.lib.NiftyDialogBuilder;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -24,20 +32,165 @@ public class BookedSlots extends FragmentActivity {
     ListView listView;
     RowData ob;
     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-    final String[] values = new String[] { "07am-08am","08am-09am","09am-10am","10am-11am","11am-12pm",
-            "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm"};
+    final String[] values = new String[]{"07am-08am", "08am-09am", "09am-10am", "10am-11am", "11am-12pm",
+            "12pm-1pm", "1pm-2pm", "2pm-3pm", "3pm-4pm", "4pm-5pm", "5pm-6pm", "6pm-7pm"};
 
     ArrayList<String> array_list_posts;
     ArrayList<RowData> rowDataList;
     final ParseUser currentUser = ParseUser.getCurrentUser();
+    int count0 = 0, count1 = 0, count2 = 0, count3 = 0;
+
+
+    SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+    // Get the date today using Calendar object.
+    Date today = Calendar.getInstance().getTime();
+    // Using DateFormat format method we can create a string
+// representation of a date with the defined format.
+    String reportDate = df.format(today);
+    String outputDate = "";
+    String outputDateT = "";
+    String outputDate2 = "";
+    String outputDate3 = "";
+
+    TextView tvtoday, tvtomorrow, tvdayafter, tvthirdday;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.posts);
-        listView = (ListView)findViewById(R.id.list);
+
+
+        tvtoday = (TextView) findViewById(R.id.today);
+        tvtomorrow = (TextView) findViewById(R.id.tomorrow);
+        tvdayafter = (TextView) findViewById(R.id.dayafter);
+        tvthirdday = (TextView) findViewById(R.id.thirdday);
+
+
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+        Calendar c = Calendar.getInstance();
+
+
+        try {
+            c.setTime(sdf.parse(reportDate));
+        } catch (java.text.ParseException e) {
+            e.printStackTrace();
+        }
+
+        c.add(Calendar.DATE, 0);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdfT = new SimpleDateFormat("MM/dd/yyyy");
+        outputDateT = sdfT.format(c.getTime());
+
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate = sdf1.format(c.getTime());
+
+
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf2 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate2 = sdf2.format(c.getTime());
+
+
+        c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+        SimpleDateFormat sdf3 = new SimpleDateFormat("MM/dd/yyyy");
+        outputDate3 = sdf3.format(c.getTime());
+        final NiftyDialogBuilder dialogBuilder = NiftyDialogBuilder.getInstance(this);
+        listView = (ListView) findViewById(R.id.list);
 
         //final String struser = currentUser.getUsername().toString();
         new Read().execute();
+
+        //delete
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                TextView label = (TextView) view.findViewById(R.id.label);
+                TextView slot = (TextView) view.findViewById(R.id.tvslot);
+
+                String slabel = label.getText().toString();
+                String sslot = slot.getText().toString();
+
+                ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                query.whereEqualTo("bookedSlots", sslot);
+                query.whereEqualTo("bookedDate", slabel);
+
+                query.findInBackground(new FindCallback<ParseObject>() {
+                    public void done(final List<ParseObject> scoreList, ParseException e) {
+                        if (scoreList.size() > 0) {
+                            try {
+
+                                dialogBuilder
+                                        .withTitle("Confirmation")                                  //.withTitle(null)  no title
+                                        .withTitleColor("#FFFFFF")                                  //def
+                                        .withDividerColor("#11000000")                              //def
+                                        .withMessage("Are you sure you want to delete this booked slot ?")                     //.withMessage(null)  no Msg
+                                        .withMessageColor("#FFFFFFFF")                              //def  | withMessageColor(int resid)
+                                        .withDialogColor("#FFE74C3C")                               //def  | withDialogColor(int resid)
+                                        .withDuration(700)                                          //def
+                                        .withButton1Text("Delete")                                      //def gone
+                                        .withButton2Text("Back")                                  //def gone
+                                        .isCancelableOnTouchOutside(true)                           //def    | isCancelable(true)
+                                        .setButton1Click(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                Toast.makeText(v.getContext(), "Deleted", Toast.LENGTH_SHORT).show();
+                                                try {
+                                                    scoreList.get(0).delete();
+
+
+                                                    if (count0 == 1) {
+                                                        tvthirdday.setText("Todays amount 0");
+                                                    }
+
+                                                    if (count1 == 1) {
+                                                        tvthirdday.setText("Tomorrow amount 0");
+                                                    }
+
+                                                    if (count2 == 1) {
+                                                        tvthirdday.setText("Day after amount 0");
+                                                    }
+
+                                                    if (count3 == 1) {
+                                                        tvthirdday.setText("Third day amount 0");
+                                                    }
+
+                                                    count0 = 0;
+                                                    count1 = 0;
+                                                    count2 = 0;
+                                                    count3 = 0;
+
+                                                    new Read().execute();
+
+                                                    dialogBuilder.dismiss();
+                                                } catch (ParseException e1) {
+                                                    e1.printStackTrace();
+                                                }
+
+                                            }
+                                        })
+                                        .setButton2Click(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+//                                                Toast.makeText(v.getContext(), "Back", Toast.LENGTH_SHORT).show();
+                                                dialogBuilder.dismiss();
+                                            }
+                                        })
+                                        .show();
+
+
+                            } catch (Exception e1) {
+                                e1.printStackTrace();
+                            }
+
+
+                        } else {
+
+
+                        }
+                    }
+                });
+
+            }
+        });
     }
 
     public class Read extends AsyncTask<String, Integer, String> {
@@ -52,64 +205,117 @@ public class BookedSlots extends FragmentActivity {
 
                 rowDataList = new ArrayList<RowData>(12);
 
-                    ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
-                    query.whereEqualTo("username", currentUser );
+                //retrieve
+                ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+
+                query.whereEqualTo("username", currentUser);
 
 
-                    query.findInBackground(new FindCallback<ParseObject>() {
-                        public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (scoreList.size()>0) {
+                query.findInBackground(new FindCallback<ParseObject>() {
+                    public void done(List<ParseObject> scoreList, ParseException e) {
+                        if (scoreList.size() > 0) {
 
-                                String[] array = new String[scoreList.size()];
-                                String[] array1 = new String[scoreList.size()];
-                                int index = 0;
-                                for (ParseObject value : scoreList) {
+                            String[] array = new String[scoreList.size()];
+                            String[] array1 = new String[scoreList.size()];
+                            int index = 0;
+                            for (ParseObject value : scoreList) {
 
-                                    ob = new RowData();
-                                    //to access the properties of the Deals object.
-                                    //to access the properties of the Deals object.
-                                    ob.setSlot(value.getString("bookedSlots"));
-                                    ob.setTex(value.getString("bookedDate"));
-                                    Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                    Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                    rowDataList.add(ob);
+                                ob = new RowData();
+                                //to access the properties of the Deals object.
+                                //to access the properties of the Deals object.
+                                ob.setSlot(value.getString("bookedSlots"));
+                                ob.setTex(value.getString("bookedDate"));
+                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
+                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+
+                                if (ob.getTex().compareTo(outputDateT) < 0) {
+                                    continue;
+                                }
+                                rowDataList.add(ob);
+
+                                if (ob.getTex().compareTo(outputDateT) == 0) {
+                                    count0++;
+                                    Log.d("Todays counter", "" + count0);
+                                    if (count0 >= 4)
+                                        tvtoday.setText("todays Amount " + count0 * 250);
+                                    else
+                                        tvtoday.setText("todays Amount " + count0 * 300);
+
+
+                                }
+
+                                //Tomorrow
+                                if (ob.getTex().compareTo(outputDate) == 0) {
+                                    count1++;
+                                    Log.d("Tomorrow counter", "" + count1);
+                                    if (count1 >= 4)
+                                        tvtomorrow.setText("tomorow amount " + count1 * 250 );
+                                    else
+                                        tvtomorrow.setText("tomorow amount " + count1 * 300);
+
+                                }
+
+                                //Day aftyer
+                                if (ob.getTex().compareTo(outputDate2) == 0) {
+                                    count2++;
+                                    Log.d("DayAfter counter", "" + count2);
+
+                                    if (count2 >= 4)
+                                        tvdayafter.setText("Day after " + count2 * 250);
+                                    else
+                                        tvdayafter.setText("Day after " + count2 * 300);
+
+
+                                }
+                                //third
+                                if (ob.getTex().compareTo(outputDate3) == 0) {
+                                    count3++;
+                                    Log.d("ThirdDay counter", "" + count3);
+
+                                    if (count3 >= 4)
+                                        tvthirdday.setText("Third day " + count3 * 250);
+                                    else
+                                        tvthirdday.setText("Third day " + count3 * 300);
                                 }
 
 
-                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
-                                dataAdapter.sort(new Comparator<RowData>() {
-                                    public int compare(RowData arg0, RowData arg1) {
-                                        return arg0.getTex().compareTo(arg1.getTex());
-                                    }
-                                });
-
-
-                                dataAdapter.notifyDataSetChanged();
-                                listView.setAdapter(dataAdapter);
-
-                            } else {
-                                ob = new RowData();
-                                ob.setSlot("No booked slots");
-                                ob.setTex("");
-                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
-                                rowDataList.add(ob);
-                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
-                                dataAdapter.sort(new Comparator<RowData>() {
-                                    public int compare(RowData arg0, RowData arg1) {
-                                        return arg0.getSlot().compareTo(arg1.getSlot());
-                                    }
-                                });
-
-
-                                dataAdapter.notifyDataSetChanged();
-                                listView.setAdapter(dataAdapter);
-
-
                             }
+
+
+                            CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
+                            dataAdapter.sort(new Comparator<RowData>() {
+                                public int compare(RowData arg0, RowData arg1) {
+                                    return arg0.getTex().compareTo(arg1.getTex());
+                                }
+                            });
+
+
+                            dataAdapter.notifyDataSetChanged();
+                            listView.setAdapter(dataAdapter);
+
+                        } else {
+                            ob = new RowData();
+                            ob.setSlot("No booked slots");
+                            ob.setTex("");
+                            Log.d(ob.getTex(), "GOT TEXT BOYSA ");
+                            Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+                            rowDataList.add(ob);
+                            CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
+                            dataAdapter.sort(new Comparator<RowData>() {
+                                public int compare(RowData arg0, RowData arg1) {
+                                    return arg0.getSlot().compareTo(arg1.getSlot());
+                                }
+                            });
+
+
+                            dataAdapter.notifyDataSetChanged();
+                            listView.setAdapter(dataAdapter);
+
+
                         }
-                    });
+                    }
+                });
 
 
 
@@ -120,16 +326,11 @@ public class BookedSlots extends FragmentActivity {
 */
 
 
-
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
             return null;
-
-
 
 
         }
@@ -149,7 +350,6 @@ public class BookedSlots extends FragmentActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             //pDialog.dismiss();
-
 
 
         }
