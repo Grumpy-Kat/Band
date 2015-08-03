@@ -26,16 +26,16 @@ import java.util.Date;
  * Created by kai on 8/7/15.
  */
 public class Welcome extends FragmentActivity {
-    Button logout,MyBookedSlots;
+    Button logout, MyBookedSlots;
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     // Get the date today using Calendar object.
     Date today = Calendar.getInstance().getTime();
     // Using DateFormat format method we can create a string
 // representation of a date with the defined format.
     String reportDate = df.format(today);
-    String outputDate="";
-    String outputDate2="";
-    String outputDate3="";
+    String outputDate = "";
+    String outputDate2 = "";
+    String outputDate3 = "";
 
 
     @Override
@@ -83,7 +83,7 @@ public class Welcome extends FragmentActivity {
         fm.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
             @Override
             public void onBackStackChanged() {
-                if(getFragmentManager().getBackStackEntryCount() == 0) finish();
+                if (getFragmentManager().getBackStackEntryCount() == 0) finish();
                 LinearLayout lin = (LinearLayout) findViewById(R.id.mL);
                 lin.setVisibility(View.VISIBLE);
             }
@@ -95,77 +95,77 @@ public class Welcome extends FragmentActivity {
 
         final ListView list = (ListView) findViewById(R.id.lvdates);
 
-        MyBookedSlots = (Button)findViewById(R.id.BookedSlot);
+        // MyBookedSlots = (Button)findViewById(R.id.BookedSlot);
 
-        final String[] values = new String[] { outputDate,outputDate2,outputDate3 }; // You have the necessary data to bind the list.
+        final String[] values = new String[]{outputDate, outputDate2, outputDate3}; // You have the necessary data to bind the list.
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 R.layout.myrow, android.R.id.text1, values); // You have set     the previous array to an adapter that can be now setted to a list.
 
         list.setAdapter(adapter);
 
-       list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-           @Override
-           public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-               if(position==0){
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                if (position == 0) {
                   /* Intent intent = new Intent(Welcome.this,Tomorrow.class);
                    startActivity(intent);*/
-                   if (savedInstanceState == null) {
-                       Fragment fragment=null;
-                       fragment = new FTomorrow();
-                       loadFragment(fragment);
+                    if (savedInstanceState == null) {
+                        Fragment fragment = null;
+                        fragment = new FTomorrow();
+                        loadFragment(fragment);
 
-                   }
+                    }
 
-               }
-               if(position==1){
+                }
+                if (position == 1) {
                    /*Intent intent = new Intent(Welcome.this,DayAfter.class);
                    startActivity(intent);*/
-                   if (savedInstanceState == null) {
-                      Fragment fragment=null;
-                       fragment = new ParallaxStikkyFragment();
-                       loadFragment(fragment);
+                    if (savedInstanceState == null) {
+                        Fragment fragment = null;
+                        fragment = new ParallaxStikkyFragment();
+                        loadFragment(fragment);
 
-                   }
+                    }
 
 
-               }
-               if(position==2){
+                }
+                if (position == 2) {
                    /*Intent intent = new Intent(Welcome.this,ThirdDay.class);
                    startActivity(intent);*/
-                   if (savedInstanceState == null) {
-                       Fragment fragment=null;
-                       fragment = new FThirdDay();
-                       loadFragment(fragment);
+                    if (savedInstanceState == null) {
+                        Fragment fragment = null;
+                        fragment = new FThirdDay();
+                        loadFragment(fragment);
 
-                   }
+                    }
 
-               }
+                }
 
-           }
-
-       });
-
-
-        MyBookedSlots.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(Welcome.this,BookedSlots.class);
-                startActivity(i);
             }
+
         });
 
 
-        logout = (Button) findViewById(R.id.logout);
-
-        logout.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                ParseUser.logOut();
-                finish();
-            }
-        });
+//        MyBookedSlots.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i = new Intent(Welcome.this,BookedSlots.class);
+//                startActivity(i);
+//            }
+//        });
+//
+//
+//        logout = (Button) findViewById(R.id.logout);
+//
+//        logout.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                ParseUser.logOut();
+//                finish();
+//            }
+//        });
     }
 
 

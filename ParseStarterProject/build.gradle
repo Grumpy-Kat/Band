@@ -17,6 +17,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: 'ParseCrashReporting-*.jar')
     compile 'com.android.support:support-v4:21.0.3'
     compile files('libs/Header2ActionBar-master/gradle/wrapper/gradle-wrapper.jar')
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.+'
+    compile 'info.hoang8f:android-segmented:1.0.5'
+
+
 }
 repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }

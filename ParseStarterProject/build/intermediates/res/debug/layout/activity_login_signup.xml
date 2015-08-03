@@ -10,4 +10,4 @@
     <Button android:id="@+id/login" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/password" android:text="Login"/>
     <Button android:id="@+id/signup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/login" android:text="Signup"/>
 
-</LinearLayout><!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/res/layout/activity_login_signup.xml -->
+</LinearLayout><!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/layout/activity_login_signup.xml -->

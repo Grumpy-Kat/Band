@@ -52,7 +52,7 @@ public class LoginSignupActivity extends Activity {
 
                                     Intent intent = new Intent(
                                             LoginSignupActivity.this,
-                                            Welcome.class);
+                                            HomePage.class);
                                     startActivity(intent);
                                     finish();
 

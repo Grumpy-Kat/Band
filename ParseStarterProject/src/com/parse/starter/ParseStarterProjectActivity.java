@@ -27,7 +27,7 @@ public class ParseStarterProjectActivity extends Activity {
 
 			if(currentUser != null) {
 
-				Intent intent = new Intent(ParseStarterProjectActivity.this, Welcome.class);
+				Intent intent = new Intent(ParseStarterProjectActivity.this, HomePage.class);
 				startActivity(intent);
 				finish();
 

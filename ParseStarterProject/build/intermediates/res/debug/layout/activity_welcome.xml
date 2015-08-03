@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/letssee"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/letssee">
-<LinearLayout
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/mL"
-    android:background="@drawable/guit">
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/guit"
+        android:orientation="vertical">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtuser"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp" />
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select a suitable date to book your slot/slots"
-        android:layout_gravity="center"
-        android:gravity="center"
-        />
-
-    <ListView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lvdates"
-        android:layout_gravity="center"
-        android:gravity="center">
-
-    </ListView>
-
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/BookedSlot"
-        android:text="My Booked Slots"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#000000"
-        android:background="@drawable/drum"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Select a suitable date to book your slot/slots" />
 
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/logout"
-        android:text="logout"
-        android:textColor="#000000"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:background="@drawable/drum"/>
+        <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segmented2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            segmentedgroup:border_width="2dp"
+            segmentedgroup:corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/button21"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic" />
+
+            <RadioButton
+                android:id="@+id/button22"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Production" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
 
 
+        <ListView
+            android:id="@+id/lvdates"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        </ListView>
 
 
-
- </LinearLayout>
+    </LinearLayout>
 </FrameLayout>
-<!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/res/layout/activity_welcome.xml -->
+<!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/layout/activity_welcome.xml -->

@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="boolean" name="freezesAnimation"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
-    <!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <declare-styleable name="SegmentedGroup"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="tint_color"/><attr format="color" name="checked_text_color"/></declare-styleable>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/home/kai/AndroidStudioProjects/Parse-Starter-Project-1.9.3/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">ParseStarterProject</string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="parse_app_id">hi</string>
     <string name="parse_client_key">yola</string>
+    <!-- From: file:/C:/AndroidStudioProjects/Band/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml -->
+    <eat-comment/>
+    <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
 </resources>

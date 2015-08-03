@@ -15,7 +15,8 @@
         android:name="com.parse.starter.ParseApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
         <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="@string/parse_app_id" />
@@ -34,6 +35,33 @@
         </activity>
         <activity
             android:name="com.parse.starter.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.starter.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.starter.Tariff"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.starter.ContactUs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.welcome" />

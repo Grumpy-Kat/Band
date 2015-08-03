@@ -2,18 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.parse.starter"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
-    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="21"/>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".ParseApplication"
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:allowBackup="true">
+        android:theme="@android:style/Theme.Black.NoTitleBar">
         <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="@string/parse_app_id" />
@@ -23,7 +26,7 @@
 
         <activity
             android:name=".ParseStarterProjectActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,7 +36,7 @@
 
         <activity
             android:name=".Welcome"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.welcome" />
 
@@ -42,6 +45,35 @@
         </activity>
 
 
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Tariff"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
 
         <activity
@@ -64,7 +96,6 @@
         <activity
             android:name=".BookedSlots"
             android:label="My Booked Slots" />
-
 
 
     </application>
