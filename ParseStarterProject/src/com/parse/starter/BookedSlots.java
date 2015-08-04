@@ -39,6 +39,8 @@ public class BookedSlots extends FragmentActivity {
     ArrayList<RowData> rowDataList;
     final ParseUser currentUser = ParseUser.getCurrentUser();
     int count0 = 0, count1 = 0, count2 = 0, count3 = 0;
+    int ansToday, ansTomorrow, ansDayAfter, ansThird;
+    int yamaha, guitar6, fender, bass5, ejam, ejamMix;
 
 
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
@@ -52,6 +54,8 @@ public class BookedSlots extends FragmentActivity {
     String outputDate2 = "";
     String outputDate3 = "";
 
+
+    int amt = 300;
     TextView tvtoday, tvtomorrow, tvdayafter, tvthirdday;
 
     @Override
@@ -137,7 +141,7 @@ public class BookedSlots extends FragmentActivity {
                                                     scoreList.get(0).delete();
 
 
-                                                    if (count0 == 1) {
+                                                  /*  if (count0 == 1) {
                                                         tvthirdday.setText("Todays amount 0");
                                                     }
 
@@ -151,14 +155,12 @@ public class BookedSlots extends FragmentActivity {
 
                                                     if (count3 == 1) {
                                                         tvthirdday.setText("Third day amount 0");
-                                                    }
+                                                    }*/
+                                                    finish();
+                                                    startActivity(getIntent());
 
-                                                    count0 = 0;
-                                                    count1 = 0;
-                                                    count2 = 0;
-                                                    count3 = 0;
 
-                                                    new Read().execute();
+                                                    //new Read().execute();
 
                                                     dialogBuilder.dismiss();
                                                 } catch (ParseException e1) {
@@ -226,6 +228,13 @@ public class BookedSlots extends FragmentActivity {
                                 //to access the properties of the Deals object.
                                 ob.setSlot(value.getString("bookedSlots"));
                                 ob.setTex(value.getString("bookedDate"));
+                                yamaha = value.getInt("yamaha");
+                                guitar6 = value.getInt("guitar6");
+                                fender = value.getInt("fender");
+                                bass5 = value.getInt("bass5");
+                                ejam = value.getInt("ejam");
+                                ejamMix = value.getInt("ejamMix");
+
                                 Log.d(ob.getTex(), "GOT TEXT BOYSA ");
                                 Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
 
@@ -234,51 +243,111 @@ public class BookedSlots extends FragmentActivity {
                                 }
                                 rowDataList.add(ob);
 
+                                //today guitar6, fender, bass5, ejam, ejamMix;
                                 if (ob.getTex().compareTo(outputDateT) == 0) {
                                     count0++;
-                                    Log.d("Todays counter", "" + count0);
-                                    if (count0 >= 4)
-                                        tvtoday.setText("todays Amount " + count0 * 250);
-                                    else
-                                        tvtoday.setText("todays Amount " + count0 * 300);
+                                    if (count0 >= 4) {
+                                        if (count0 == 4) {
+                                            ansToday -= 300 * 3;
+                                            amt = 250 * 4;
+                                        }
+                                        if (count0 > 4) {
+                                            amt = 250;
 
+                                        }
+                                        ansToday += amt + yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+
+                                    } else {
+                                        ansToday += yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+                                    }
+
+                                    if (count0 <= 3) {
+                                        ansToday += 300;
+                                    }
+
+                                    tvtoday.setText("Todays Amount " + ansToday);
 
                                 }
 
                                 //Tomorrow
                                 if (ob.getTex().compareTo(outputDate) == 0) {
                                     count1++;
-                                    Log.d("Tomorrow counter", "" + count1);
-                                    if (count1 >= 4)
-                                        tvtomorrow.setText("tomorow amount " + count1 * 250 );
-                                    else
-                                        tvtomorrow.setText("tomorow amount " + count1 * 300);
+
+                                    if (count1 >= 4) {
+                                        if (count1 == 4) {
+                                            ansTomorrow -= 300 * 3;
+                                            amt = 250 * 4;
+                                        }
+                                        if (count1 > 4) {
+                                            amt = 250;
+
+                                        }
+                                        ansTomorrow += amt + yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+
+                                    } else {
+                                        ansTomorrow += yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+                                    }
+
+                                    if (count1 <= 3) {
+                                        ansTomorrow += 300;
+                                    }
+
+
+                                    tvtomorrow.setText("tomorrow Amount " + ansTomorrow);
+
 
                                 }
 
                                 //Day aftyer
                                 if (ob.getTex().compareTo(outputDate2) == 0) {
                                     count2++;
-                                    Log.d("DayAfter counter", "" + count2);
 
-                                    if (count2 >= 4)
-                                        tvdayafter.setText("Day after " + count2 * 250);
-                                    else
-                                        tvdayafter.setText("Day after " + count2 * 300);
+                                    if (count2 >= 4) {
+                                        if (count2 == 4) {
+                                            ansDayAfter -= 300 * 3;
+                                            amt = 250 * 4;
+                                        }
+                                        if (count2 > 4) {
+                                            amt = 250;
 
+                                        }
+                                        ansDayAfter += amt + yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+
+                                    } else {
+                                        ansDayAfter += yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+                                    }
+
+                                    if (count2 <= 3) {
+                                        ansDayAfter += 300;
+                                    }
+                                    tvdayafter.setText("Day After Amount - " + ansDayAfter);
 
                                 }
                                 //third
                                 if (ob.getTex().compareTo(outputDate3) == 0) {
                                     count3++;
-                                    Log.d("ThirdDay counter", "" + count3);
 
-                                    if (count3 >= 4)
-                                        tvthirdday.setText("Third day " + count3 * 250);
-                                    else
-                                        tvthirdday.setText("Third day " + count3 * 300);
+
+                                    if (count3 >= 4) {
+                                        if (count3 == 4) {
+                                            ansThird -= 300 * 3;
+                                            amt = 250 * 4;
+                                        }
+                                        if (count3 > 4) {
+                                            amt = 250;
+
+                                        }
+                                        ansThird += amt + yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+
+                                    } else {
+                                        ansThird += yamaha + guitar6 + fender + bass5 + ejam + ejamMix;
+                                    }
+
+                                    if (count3 <= 3) {
+                                        ansThird += 300;
+                                    }
                                 }
-
+                                tvthirdday.setText("Third day amount" + ansThird);
 
                             }
 

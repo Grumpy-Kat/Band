@@ -45,14 +45,14 @@ public class Tomorrow extends FragmentActivity {
     RowData ob;
     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
-
+    int yamaha, guitar6, fender, bass5, ejam, ejamMix;
     ArrayList<RowData> rowDataList;
     ListView listView;
     TextView tvslot;
 
     Boolean[] array = new Boolean[12];
     final String[] values = new String[] { "07am-08am","08am-09am","09am-10am","10am-11am","11am-12pm",
-            "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm"};
+            "12pm-1pm","1pm-2pm","2pm-3pm","3pm-4pm","4pm-5pm","5pm-6pm","6pm-7pm","7pm-8pm","8pm-9pm","9pm-10pm"};
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     // Get the date today using Calendar object.
     Date today = Calendar.getInstance().getTime();
@@ -61,14 +61,24 @@ public class Tomorrow extends FragmentActivity {
     String reportDate = df.format(today);
     String outputDate="";
 
-
+    TextView date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.posts);
+        setContentView(R.layout.postsactivity);
+        Bundle bundle = getIntent().getExtras();
+        yamaha = bundle.getInt("Yamaha");
+        Toast.makeText(this, " " + yamaha, Toast.LENGTH_LONG).show();
+
+
+        guitar6 = bundle.getInt("6Guitar");
+        fender = bundle.getInt("FenderGuitar");
+        bass5 = bundle.getInt("5Bass");
+        ejam = bundle.getInt("Ejam");
+        ejamMix = bundle.getInt("EjamSeparate");
 
         listView = (ListView)findViewById(R.id.list);
         tvslot=(TextView)findViewById(R.id.tvslot);
@@ -88,6 +98,9 @@ public class Tomorrow extends FragmentActivity {
         c.add(Calendar.DATE, 1);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
         SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
         outputDate = sdf1.format(c.getTime());
+        date = (TextView) findViewById(R.id.date);
+
+        date.setText(outputDate);
 
 
         final ParseUser currentUser = ParseUser.getCurrentUser();
@@ -118,7 +131,14 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "07am-08am");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
+
                                 finish();
                                 startActivity(getIntent());
 
@@ -150,6 +170,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "08am-09am");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -178,6 +204,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "09am-10am");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -207,6 +239,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "10am-11am");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -235,6 +273,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "11am-12pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -263,6 +307,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "12pm-1pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -292,6 +342,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "1pm-2pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -321,6 +377,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "2pm-3pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -350,6 +412,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "3pm-4pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -378,6 +446,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "4pm-5pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -407,6 +481,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "5pm-6pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -435,6 +515,12 @@ public class Tomorrow extends FragmentActivity {
                                 gameScore.put("username", currentUser);
                                 gameScore.put("bookedDate", outputDate);
                                 gameScore.put("bookedSlots", "6pm-7pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
                                 gameScore.saveInBackground();
                                 finish();
                                 startActivity(getIntent());
@@ -442,6 +528,114 @@ public class Tomorrow extends FragmentActivity {
                             }
                         }
                     });
+
+                }
+
+                if(position==12){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "7pm-8pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "7pm-8pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+
+                }
+
+                if(position==13){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "8pm-9pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "8pm-9pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
+
+                }
+
+                if(position==14){
+                    //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+                    final ParseObject gameScore = new ParseObject("dbBand");
+                    query.whereEqualTo("bookedSlots", "9pm-10pm");
+                    query.whereEqualTo("bookedDate", outputDate);
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> scoreList, ParseException e) {
+                            if (scoreList.size()>0) {
+                                Toast.makeText(getApplicationContext(),
+                                        "Slot is busy",
+                                        Toast.LENGTH_SHORT).show();
+
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "Success"+outputDate,
+                                        Toast.LENGTH_SHORT).show();
+                                gameScore.put("username", currentUser);
+                                gameScore.put("bookedDate", outputDate);
+                                gameScore.put("bookedSlots", "9pm-10pm");
+                                gameScore.put("yamaha", yamaha);
+                                gameScore.put("guitar6", guitar6);
+                                gameScore.put("fender", fender);
+                                gameScore.put("bass5",  bass5);
+                                gameScore.put("ejam", ejam);
+                                gameScore.put("ejamMix", ejamMix);
+                                gameScore.saveInBackground();
+                                finish();
+                                startActivity(getIntent());
+
+                            }
+                        }
+                    });
+
 
                 }
 
@@ -460,8 +654,8 @@ public class Tomorrow extends FragmentActivity {
             try {
 
 
-                rowDataList = new ArrayList<RowData>(12);
-                for(int i =0;i<12;i++){
+                rowDataList = new ArrayList<RowData>(15);
+                for(int i =0;i<15;i++){
                     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
 
                     query.whereEqualTo("bookedSlots", values[i]);
