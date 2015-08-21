@@ -1,57 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:orientation="vertical">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
 
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="fill_parent"
-        android:layout_height="250dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/bandgif" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="2">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/logotext" />
 
-        <Button
-            android:id="@+id/booknow"
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Book now" />
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="normal|bold|italic" />
 
-        <Button
-            android:id="@+id/tariff"
-            android:layout_width="0dp"
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bandgif" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Tariff" />
+            android:layout_marginTop="25dp"
+            android:weightSum="2">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/booknow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="#9E9E9E"
+                fancy:fb_focusColor="#E0E0E0"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="Book Now"
+                fancy:fb_textColor="#000000" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/tariff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:textStyle="normal|bold|italic"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="#9E9E9E"
+                fancy:fb_focusColor="#E0E0E0"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="Tariff"
+                fancy:fb_textColor="#000000" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:weightSum="2">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/contactus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="#9E9E9E"
+                fancy:fb_focusColor="#E0E0E0"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="Contact Us"
+                fancy:fb_textColor="#000000" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/bookedslots"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="#9E9E9E"
+                fancy:fb_focusColor="#E0E0E0"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="My Booked Slots"
+                fancy:fb_textColor="#000000" />
+        </LinearLayout>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#9E9E9E"
+            fancy:fb_focusColor="#E0E0E0"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Log Out"
+            fancy:fb_textColor="#000000" />
 
     </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:weightSum="2">
-
-        <Button
-            android:id="@+id/contactus"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Contact Us" />
-
-        <Button
-            android:id="@+id/bookedslots"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="BookedSlots" />
-    </LinearLayout>s
-</LinearLayout>
+</ScrollView>

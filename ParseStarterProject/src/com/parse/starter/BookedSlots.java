@@ -127,8 +127,8 @@ public class BookedSlots extends FragmentActivity {
                                         .withTitleColor("#FFFFFF")                                  //def
                                         .withDividerColor("#11000000")                              //def
                                         .withMessage("Are you sure you want to delete this booked slot ?")                     //.withMessage(null)  no Msg
-                                        .withMessageColor("#FFFFFFFF")                              //def  | withMessageColor(int resid)
-                                        .withDialogColor("#FFE74C3C")                               //def  | withDialogColor(int resid)
+                                        .withMessageColor("#FF000000")                              //def  | withMessageColor(int resid)
+                                        .withDialogColor("#FFD4D60C")                               //def  | withDialogColor(int resid)
                                         .withDuration(700)                                          //def
                                         .withButton1Text("Delete")                                      //def gone
                                         .withButton2Text("Back")                                  //def gone
@@ -265,7 +265,7 @@ public class BookedSlots extends FragmentActivity {
                                         ansToday += 300;
                                     }
 
-                                    tvtoday.setText("Todays Amount " + ansToday);
+                                    tvtoday.setText("Today's Amount " + ansToday);
 
                                 }
 
@@ -293,7 +293,7 @@ public class BookedSlots extends FragmentActivity {
                                     }
 
 
-                                    tvtomorrow.setText("tomorrow Amount " + ansTomorrow);
+                                    tvtomorrow.setText("Tomorrow's Amount " + ansTomorrow);
 
 
                                 }
@@ -320,7 +320,7 @@ public class BookedSlots extends FragmentActivity {
                                     if (count2 <= 3) {
                                         ansDayAfter += 300;
                                     }
-                                    tvdayafter.setText("Day After Amount - " + ansDayAfter);
+                                    tvdayafter.setText("Day After Tomorrow's Amount - " + ansDayAfter);
 
                                 }
                                 //third
@@ -347,7 +347,7 @@ public class BookedSlots extends FragmentActivity {
                                         ansThird += 300;
                                     }
                                 }
-                                tvthirdday.setText("Third day amount" + ansThird);
+                                tvthirdday.setText("Third day's Amount - " + ansThird);
 
                             }
 

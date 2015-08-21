@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Band\Band\ParseStarterProject\build\intermediates\exploded-aar\com.github.sd6352051.niftydialogeffects\niftydialogeffects\1.0.0\jars\classes.jar"
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\uk.co.chrisjenx\calligraphy\2.1.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="f6e011916db951e72f3a2be65cfb864bf5408035">
-        <dex dex="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-428a40b331aaa8dbf311d03f9a98cade784c5d49.jar" />
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-2b6970082d7874d18e54f7ba77811a68c0530dc7.jar" />
     </item>
     <item
-        jar="C:\Users\Pavan\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Band\Band\ParseStarterProject\build\intermediates\pre-dexed\debug\library-2.4.0-414ae11c276bc518134adc375ade0307a96d02f5.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-a756a13f218ffbaa19e1da6aa7bcce6af816d558.jar" />
     </item>
 
 </items>

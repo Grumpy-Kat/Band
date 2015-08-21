@@ -18,7 +18,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int border_width=0x7f010008;
+        public static final int border_width=0x7f010022;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -27,7 +27,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int checked_text_color=0x7f01000a;
+        public static final int checked_text_color=0x7f010024;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -37,60 +37,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int corner_radius=0x7f010007;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int freezesAnimation=0x7f010002;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int gifSource=0x7f010000;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int isOpaque=0x7f010001;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int layoutManager=0x7f010003;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int reverseLayout=0x7f010005;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spanCount=0x7f010004;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int stackFromEnd=0x7f010006;
+        public static final int corner_radius=0x7f010021;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -99,25 +46,421 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tint_color=0x7f010009;
+        public static final int fb_borderColor=0x7f010015;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_borderWidth=0x7f010016;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_defaultColor=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_focusColor=0x7f010017;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_fontIconResource=0x7f01000c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_fontIconSize=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_ghost=0x7f010019;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconColor=0x7f010007;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconFont=0x7f010009;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconPaddingBottom=0x7f010014;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconPaddingLeft=0x7f010011;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconPaddingRight=0x7f010012;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconPaddingTop=0x7f010013;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>3</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int fb_iconPosition=0x7f01000e;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_iconResource=0x7f01000b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_radius=0x7f010018;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_text=0x7f010005;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_textColor=0x7f010006;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_textFont=0x7f010008;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static final int fb_textGravity=0x7f010010;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>3</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int fb_textPosition=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fb_textSize=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int freezesAnimation=0x7f01001c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int gifSource=0x7f01001a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int isOpaque=0x7f01001b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layoutManager=0x7f01001d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int reverseLayout=0x7f01001f;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int siArrowPosition=0x7f010000;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siBorderAlpha=0x7f010028;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siBorderColor=0x7f010026;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>stroke</code></td><td>0</td><td></td></tr>
+<tr><td><code>fill</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int siBorderType=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siBorderWidth=0x7f010027;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int siForeground=0x7f010029;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siRadius=0x7f01002a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int siShape=0x7f01002c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siSquare=0x7f010025;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>butt</code></td><td>0</td><td></td></tr>
+<tr><td><code>round</code></td><td>1</td><td></td></tr>
+<tr><td><code>square</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int siStrokeCap=0x7f010002;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bevel</code></td><td>0</td><td></td></tr>
+<tr><td><code>miter</code></td><td>1</td><td></td></tr>
+<tr><td><code>round</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int siStrokeJoin=0x7f010003;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siStrokeMiter=0x7f01002d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int siTriangleHeight=0x7f01002b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spanCount=0x7f01001e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int stackFromEnd=0x7f010020;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tint_color=0x7f010023;
     }
     public static final class color {
-        public static final int btn_press_color=0x7f060000;
-        public static final int btn_unpress_color=0x7f060001;
-        public static final int dialog_bg=0x7f060002;
-        public static final int divider_color=0x7f060003;
-        public static final int msg_color=0x7f060004;
-        public static final int radio_button_selected_color=0x7f060005;
-        public static final int radio_button_unselected_color=0x7f060006;
-        public static final int text_color=0x7f060007;
+        public static final int btn_press_color=0x7f070000;
+        public static final int btn_unpress_color=0x7f070001;
+        public static final int dialog_bg=0x7f070002;
+        public static final int divider_color=0x7f070003;
+        public static final int msg_color=0x7f070004;
+        public static final int radio_button_selected_color=0x7f070005;
+        public static final int radio_button_unselected_color=0x7f070006;
+        public static final int text_color=0x7f070007;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050001;
-        public static final int activity_vertical_margin=0x7f050002;
-        public static final int dialog_padding=0x7f050000;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f050003;
-        public static final int radio_button_conner_radius=0x7f050004;
-        public static final int radio_button_stroke_border=0x7f050005;
+        public static final int activity_horizontal_margin=0x7f060001;
+        public static final int activity_vertical_margin=0x7f060002;
+        public static final int dialog_padding=0x7f060000;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060003;
+        public static final int radio_button_conner_radius=0x7f060004;
+        public static final int radio_button_stroke_border=0x7f060005;
     }
     public static final class drawable {
         public static final int bandgif=0x7f020000;
@@ -129,104 +472,555 @@ containing a value of this type.
         public static final int drum=0x7f020006;
         public static final int guit=0x7f020007;
         public static final int ic_launcher=0x7f020008;
-        public static final int radio_checked=0x7f020009;
-        public static final int radio_unchecked=0x7f02000a;
-        public static final int ryuzaki=0x7f02000b;
+        public static final int logo=0x7f020009;
+        public static final int logotext=0x7f02000a;
+        public static final int radio_checked=0x7f02000b;
+        public static final int radio_unchecked=0x7f02000c;
+        public static final int ryuzaki=0x7f02000d;
+        public static final int yogi=0x7f02000e;
     }
     public static final class id {
-        public static final int Bass=0x7f070011;
-        public static final int Guitar6String=0x7f07000f;
-        public static final int GuitarAcoustic=0x7f070010;
-        public static final int Mixing=0x7f07001b;
-        public static final int Yamaha=0x7f07000e;
-        public static final int alertTitle=0x7f070022;
-        public static final int basic=0x7f07000d;
-        public static final int bookedslots=0x7f070030;
-        public static final int booknow=0x7f07002d;
-        public static final int button1=0x7f070027;
-        public static final int button2=0x7f070028;
-        public static final int button21=0x7f070009;
-        public static final int button22=0x7f07000a;
-        public static final int contactus=0x7f07002f;
-        public static final int contentPanel=0x7f070024;
-        public static final int customPanel=0x7f070026;
-        public static final int date=0x7f070038;
-        public static final int dayafter=0x7f070035;
-        public static final int drummidi=0x7f070016;
-        public static final int drummidiediting=0x7f070017;
-        public static final int drumprogramming=0x7f070018;
-        public static final int editingofsession=0x7f07001a;
-        public static final int guitarbassreamping=0x7f070019;
-        public static final int h1=0x7f07002b;
-        public static final int header_image=0x7f07002c;
-        public static final int icon=0x7f070021;
-        public static final int item_touch_helper_previous_elevation=0x7f070000;
-        public static final int label=0x7f07003a;
-        public static final int lc=0x7f070029;
-        public static final int list=0x7f070037;
-        public static final int ll=0x7f070032;
-        public static final int login=0x7f070005;
-        public static final int lv1=0x7f07002a;
-        public static final int lvdates=0x7f07000b;
-        public static final int lvtomorrow=0x7f07003b;
-        public static final int mL=0x7f070007;
-        public static final int main=0x7f07001d;
-        public static final int mastering=0x7f07001c;
-        public static final int message=0x7f070025;
-        public static final int parentPanel=0x7f07001e;
-        public static final int password=0x7f070004;
-        public static final int production=0x7f070015;
-        public static final int recordentirejam=0x7f070012;
-        public static final int recordentirejamandstuff=0x7f070013;
-        public static final int rl_posts=0x7f070031;
-        public static final int scroll1=0x7f07000c;
-        public static final int scroll2=0x7f070014;
-        public static final int segmented2=0x7f070008;
-        public static final int signup=0x7f070006;
-        public static final int tariff=0x7f07002e;
-        public static final int thirdday=0x7f070036;
-        public static final int titleDivider=0x7f070023;
-        public static final int title_template=0x7f070020;
-        public static final int today=0x7f070033;
-        public static final int tomorrow=0x7f070034;
-        public static final int topPanel=0x7f07001f;
-        public static final int tvslot=0x7f070039;
-        public static final int txtpassword=0x7f070003;
-        public static final int txtuser=0x7f070001;
-        public static final int username=0x7f070002;
+        public static final int Bass=0x7f080025;
+        public static final int Guitar6String=0x7f080023;
+        public static final int GuitarAcoustic=0x7f080024;
+        public static final int Mixing=0x7f08002f;
+        public static final int Yamaha=0x7f080022;
+        public static final int alertTitle=0x7f080039;
+        public static final int basic=0x7f080021;
+        public static final int bevel=0x7f080008;
+        public static final int bookedslots=0x7f080048;
+        public static final int booknow=0x7f080045;
+        public static final int bottom=0x7f08000a;
+        public static final int butt=0x7f080005;
+        public static final int button1=0x7f08003e;
+        public static final int button2=0x7f08003f;
+        public static final int button21=0x7f08001d;
+        public static final int button22=0x7f08001e;
+        public static final int call=0x7f080031;
+        public static final int center=0x7f08000c;
+        public static final int center_horizontal=0x7f08000d;
+        public static final int center_vertical=0x7f08000e;
+        public static final int clip_horizontal=0x7f08000f;
+        public static final int clip_vertical=0x7f080010;
+        public static final int contactus=0x7f080047;
+        public static final int contentPanel=0x7f08003b;
+        public static final int customPanel=0x7f08003d;
+        public static final int date=0x7f080051;
+        public static final int dayafter=0x7f08004e;
+        public static final int drummidi=0x7f08002a;
+        public static final int drummidiediting=0x7f08002b;
+        public static final int drumprogramming=0x7f08002c;
+        public static final int editingofsession=0x7f08002e;
+        public static final int end=0x7f080011;
+        public static final int fill=0x7f080003;
+        public static final int fill_horizontal=0x7f080012;
+        public static final int fill_vertical=0x7f080013;
+        public static final int guitarbassreamping=0x7f08002d;
+        public static final int h1=0x7f080042;
+        public static final int header_image=0x7f080043;
+        public static final int icon=0x7f080038;
+        public static final int item_touch_helper_previous_elevation=0x7f080000;
+        public static final int label=0x7f080053;
+        public static final int lc=0x7f080040;
+        public static final int left=0x7f080001;
+        public static final int list=0x7f080050;
+        public static final int ll=0x7f08004b;
+        public static final int login=0x7f080019;
+        public static final int logout=0x7f080049;
+        public static final int lv1=0x7f080041;
+        public static final int lvdates=0x7f08001f;
+        public static final int lvtomorrow=0x7f080054;
+        public static final int mL=0x7f08001b;
+        public static final int mail=0x7f080033;
+        public static final int main=0x7f080034;
+        public static final int map=0x7f080032;
+        public static final int mastering=0x7f080030;
+        public static final int message=0x7f08003c;
+        public static final int miter=0x7f080009;
+        public static final int name=0x7f080044;
+        public static final int parentPanel=0x7f080035;
+        public static final int password=0x7f080018;
+        public static final int production=0x7f080029;
+        public static final int recordentirejam=0x7f080026;
+        public static final int recordentirejamandstuff=0x7f080027;
+        public static final int right=0x7f080002;
+        public static final int rl_posts=0x7f08004a;
+        public static final int round=0x7f080006;
+        public static final int scroll1=0x7f080020;
+        public static final int scroll2=0x7f080028;
+        public static final int segmented2=0x7f08001c;
+        public static final int signup=0x7f08001a;
+        public static final int square=0x7f080007;
+        public static final int start=0x7f080014;
+        public static final int stroke=0x7f080004;
+        public static final int tariff=0x7f080046;
+        public static final int thirdday=0x7f08004f;
+        public static final int titleDivider=0x7f08003a;
+        public static final int title_template=0x7f080037;
+        public static final int today=0x7f08004c;
+        public static final int tomorrow=0x7f08004d;
+        public static final int top=0x7f08000b;
+        public static final int topPanel=0x7f080036;
+        public static final int tvslot=0x7f080052;
+        public static final int txtpassword=0x7f080017;
+        public static final int txtuser=0x7f080015;
+        public static final int username=0x7f080016;
     }
     public static final class layout {
         public static final int activity_login_signup=0x7f030000;
         public static final int activity_welcome=0x7f030001;
-        public static final int dialog_layout=0x7f030002;
-        public static final int fragment_parallax=0x7f030003;
-        public static final int homepage=0x7f030004;
-        public static final int main=0x7f030005;
-        public static final int myrow=0x7f030006;
-        public static final int posts=0x7f030007;
-        public static final int postsactivity=0x7f030008;
-        public static final int radio_button_item=0x7f030009;
-        public static final int row=0x7f03000a;
-        public static final int tomorrow=0x7f03000b;
+        public static final int contactus=0x7f030002;
+        public static final int dialog_layout=0x7f030003;
+        public static final int fragment_parallax=0x7f030004;
+        public static final int homepage=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int myrow=0x7f030007;
+        public static final int posts=0x7f030008;
+        public static final int postsactivity=0x7f030009;
+        public static final int radio_button_item=0x7f03000a;
+        public static final int row=0x7f03000b;
+        public static final int tomorrow=0x7f03000c;
+    }
+    public static final class raw {
+        public static final int imgview_diamond=0x7f040000;
+        public static final int imgview_heart=0x7f040001;
+        public static final int imgview_hexagon=0x7f040002;
+        public static final int imgview_octogon=0x7f040003;
+        public static final int imgview_pentagon=0x7f040004;
+        public static final int imgview_star=0x7f040005;
     }
     public static final class string {
-        public static final int app_name=0x7f080000;
-        public static final int hello=0x7f080001;
-        public static final int parse_app_id=0x7f080002;
-        public static final int parse_client_key=0x7f080003;
+        public static final int app_name=0x7f090000;
+        public static final int hello=0x7f090001;
+        public static final int parse_app_id=0x7f090002;
+        public static final int parse_client_key=0x7f090003;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 11 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f040000;
-        public static final int DialogWindowTitle=0x7f040001;
-        public static final int RadioButton=0x7f040002;
-        public static final int dialog_btn=0x7f040003;
-        public static final int dialog_tran=0x7f040004;
-        public static final int dialog_untran=0x7f040005;
+        public static final int AppBaseTheme=0x7f050000;
+        public static final int DialogWindowTitle=0x7f050001;
+        public static final int RadioButton=0x7f050002;
+        public static final int dialog_btn=0x7f050003;
+        public static final int dialog_tran=0x7f050004;
+        public static final int dialog_untran=0x7f050005;
     }
     public static final class styleable {
+        /** Attributes that can be used with a FancyButtonsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderColor com.parse.starter:fb_borderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_borderWidth com.parse.starter:fb_borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_defaultColor com.parse.starter:fb_defaultColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_focusColor com.parse.starter:fb_focusColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconResource com.parse.starter:fb_fontIconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_fontIconSize com.parse.starter:fb_fontIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_ghost com.parse.starter:fb_ghost}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconColor com.parse.starter:fb_iconColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconFont com.parse.starter:fb_iconFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingBottom com.parse.starter:fb_iconPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingLeft com.parse.starter:fb_iconPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingRight com.parse.starter:fb_iconPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPaddingTop com.parse.starter:fb_iconPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconPosition com.parse.starter:fb_iconPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_iconResource com.parse.starter:fb_iconResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_radius com.parse.starter:fb_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_text com.parse.starter:fb_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textColor com.parse.starter:fb_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textFont com.parse.starter:fb_textFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textGravity com.parse.starter:fb_textGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textPosition com.parse.starter:fb_textPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #FancyButtonsAttrs_fb_textSize com.parse.starter:fb_textSize}</code></td><td></td></tr>
+           </table>
+           @see #FancyButtonsAttrs_fb_borderColor
+           @see #FancyButtonsAttrs_fb_borderWidth
+           @see #FancyButtonsAttrs_fb_defaultColor
+           @see #FancyButtonsAttrs_fb_focusColor
+           @see #FancyButtonsAttrs_fb_fontIconResource
+           @see #FancyButtonsAttrs_fb_fontIconSize
+           @see #FancyButtonsAttrs_fb_ghost
+           @see #FancyButtonsAttrs_fb_iconColor
+           @see #FancyButtonsAttrs_fb_iconFont
+           @see #FancyButtonsAttrs_fb_iconPaddingBottom
+           @see #FancyButtonsAttrs_fb_iconPaddingLeft
+           @see #FancyButtonsAttrs_fb_iconPaddingRight
+           @see #FancyButtonsAttrs_fb_iconPaddingTop
+           @see #FancyButtonsAttrs_fb_iconPosition
+           @see #FancyButtonsAttrs_fb_iconResource
+           @see #FancyButtonsAttrs_fb_radius
+           @see #FancyButtonsAttrs_fb_text
+           @see #FancyButtonsAttrs_fb_textColor
+           @see #FancyButtonsAttrs_fb_textFont
+           @see #FancyButtonsAttrs_fb_textGravity
+           @see #FancyButtonsAttrs_fb_textPosition
+           @see #FancyButtonsAttrs_fb_textSize
+         */
+        public static final int[] FancyButtonsAttrs = {
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013,
+            0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017,
+            0x7f010018, 0x7f010019
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_borderColor}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_borderColor
+        */
+        public static final int FancyButtonsAttrs_fb_borderColor = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_borderWidth}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_borderWidth
+        */
+        public static final int FancyButtonsAttrs_fb_borderWidth = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_defaultColor}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_defaultColor
+        */
+        public static final int FancyButtonsAttrs_fb_defaultColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_focusColor}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_focusColor
+        */
+        public static final int FancyButtonsAttrs_fb_focusColor = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_fontIconResource}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_fontIconResource
+        */
+        public static final int FancyButtonsAttrs_fb_fontIconResource = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_fontIconSize}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_fontIconSize
+        */
+        public static final int FancyButtonsAttrs_fb_fontIconSize = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_ghost}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_ghost
+        */
+        public static final int FancyButtonsAttrs_fb_ghost = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconColor}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconColor
+        */
+        public static final int FancyButtonsAttrs_fb_iconColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconFont}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconFont
+        */
+        public static final int FancyButtonsAttrs_fb_iconFont = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconPaddingBottom}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconPaddingBottom
+        */
+        public static final int FancyButtonsAttrs_fb_iconPaddingBottom = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconPaddingLeft}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconPaddingLeft
+        */
+        public static final int FancyButtonsAttrs_fb_iconPaddingLeft = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconPaddingRight}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconPaddingRight
+        */
+        public static final int FancyButtonsAttrs_fb_iconPaddingRight = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconPaddingTop}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconPaddingTop
+        */
+        public static final int FancyButtonsAttrs_fb_iconPaddingTop = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconPosition}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>3</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:fb_iconPosition
+        */
+        public static final int FancyButtonsAttrs_fb_iconPosition = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_iconResource}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_iconResource
+        */
+        public static final int FancyButtonsAttrs_fb_iconResource = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_radius}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_radius
+        */
+        public static final int FancyButtonsAttrs_fb_radius = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_text}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_text
+        */
+        public static final int FancyButtonsAttrs_fb_text = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_textColor}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_textColor
+        */
+        public static final int FancyButtonsAttrs_fb_textColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_textFont}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_textFont
+        */
+        public static final int FancyButtonsAttrs_fb_textFont = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_textGravity}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:fb_textGravity
+        */
+        public static final int FancyButtonsAttrs_fb_textGravity = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_textPosition}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>3</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:fb_textPosition
+        */
+        public static final int FancyButtonsAttrs_fb_textPosition = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fb_textSize}
+          attribute's value can be found in the {@link #FancyButtonsAttrs} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:fb_textSize
+        */
+        public static final int FancyButtonsAttrs_fb_textSize = 6;
         /** Attributes that can be used with a GifTextureView.
            <p>Includes the following attributes:</p>
            <table>
@@ -240,7 +1034,7 @@ containing a value of this type.
            @see #GifTextureView_isOpaque
          */
         public static final int[] GifTextureView = {
-            0x7f010000, 0x7f010001
+            0x7f01001a, 0x7f01001b
         };
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#gifSource}
@@ -278,7 +1072,7 @@ containing a value of this type.
            @see #GifView_freezesAnimation
          */
         public static final int[] GifView = {
-            0x7f010002
+            0x7f01001c
         };
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#freezesAnimation}
@@ -313,8 +1107,8 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f010003, 0x7f010004, 0x7f010005,
-            0x7f010006
+            0x010100c4, 0x7f01001d, 0x7f01001e, 0x7f01001f,
+            0x7f010020
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -395,7 +1189,7 @@ containing a value of this type.
            @see #SegmentedGroup_tint_color
          */
         public static final int[] SegmentedGroup = {
-            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a
+            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024
         };
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#border_width}
@@ -459,5 +1253,244 @@ containing a value of this type.
           @attr name com.parse.starter:tint_color
         */
         public static final int SegmentedGroup_tint_color = 2;
+        /** Attributes that can be used with a ShaderImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ShaderImageView_siArrowPosition com.parse.starter:siArrowPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siBorderAlpha com.parse.starter:siBorderAlpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siBorderColor com.parse.starter:siBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siBorderType com.parse.starter:siBorderType}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siBorderWidth com.parse.starter:siBorderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siForeground com.parse.starter:siForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siRadius com.parse.starter:siRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siShape com.parse.starter:siShape}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siSquare com.parse.starter:siSquare}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siStrokeCap com.parse.starter:siStrokeCap}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siStrokeJoin com.parse.starter:siStrokeJoin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siStrokeMiter com.parse.starter:siStrokeMiter}</code></td><td></td></tr>
+           <tr><td><code>{@link #ShaderImageView_siTriangleHeight com.parse.starter:siTriangleHeight}</code></td><td></td></tr>
+           </table>
+           @see #ShaderImageView_siArrowPosition
+           @see #ShaderImageView_siBorderAlpha
+           @see #ShaderImageView_siBorderColor
+           @see #ShaderImageView_siBorderType
+           @see #ShaderImageView_siBorderWidth
+           @see #ShaderImageView_siForeground
+           @see #ShaderImageView_siRadius
+           @see #ShaderImageView_siShape
+           @see #ShaderImageView_siSquare
+           @see #ShaderImageView_siStrokeCap
+           @see #ShaderImageView_siStrokeJoin
+           @see #ShaderImageView_siStrokeMiter
+           @see #ShaderImageView_siTriangleHeight
+         */
+        public static final int[] ShaderImageView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
+            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c,
+            0x7f01002d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siArrowPosition}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:siArrowPosition
+        */
+        public static final int ShaderImageView_siArrowPosition = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siBorderAlpha}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siBorderAlpha
+        */
+        public static final int ShaderImageView_siBorderAlpha = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siBorderColor}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siBorderColor
+        */
+        public static final int ShaderImageView_siBorderColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siBorderType}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>stroke</code></td><td>0</td><td></td></tr>
+<tr><td><code>fill</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:siBorderType
+        */
+        public static final int ShaderImageView_siBorderType = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siBorderWidth}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siBorderWidth
+        */
+        public static final int ShaderImageView_siBorderWidth = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siForeground}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.parse.starter:siForeground
+        */
+        public static final int ShaderImageView_siForeground = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siRadius}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siRadius
+        */
+        public static final int ShaderImageView_siRadius = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siShape}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.parse.starter:siShape
+        */
+        public static final int ShaderImageView_siShape = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siSquare}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siSquare
+        */
+        public static final int ShaderImageView_siSquare = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siStrokeCap}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>butt</code></td><td>0</td><td></td></tr>
+<tr><td><code>round</code></td><td>1</td><td></td></tr>
+<tr><td><code>square</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:siStrokeCap
+        */
+        public static final int ShaderImageView_siStrokeCap = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siStrokeJoin}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bevel</code></td><td>0</td><td></td></tr>
+<tr><td><code>miter</code></td><td>1</td><td></td></tr>
+<tr><td><code>round</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.parse.starter:siStrokeJoin
+        */
+        public static final int ShaderImageView_siStrokeJoin = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siStrokeMiter}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siStrokeMiter
+        */
+        public static final int ShaderImageView_siStrokeMiter = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#siTriangleHeight}
+          attribute's value can be found in the {@link #ShaderImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.parse.starter:siTriangleHeight
+        */
+        public static final int ShaderImageView_siTriangleHeight = 10;
     };
 }

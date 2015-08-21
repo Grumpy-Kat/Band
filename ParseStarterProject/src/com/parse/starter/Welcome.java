@@ -2,6 +2,7 @@ package com.parse.starter;
 
 import android.app.FragmentManager;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -22,6 +23,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+import info.hoang8f.android.segmented.SegmentedGroup;
 
 /**
  * Created by kai on 8/7/15.
@@ -56,6 +59,10 @@ public class Welcome extends FragmentActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+
+        SegmentedGroup segmented2 = (SegmentedGroup) findViewById(R.id.segmented2);
+        segmented2.setTintColor(Color.parseColor("#FFD4D60C"), Color.parseColor("#FF7B07B2"));
 
         basic = (RadioButton) findViewById(R.id.button21);
         production = (RadioButton) findViewById(R.id.button22);
@@ -98,9 +105,6 @@ public class Welcome extends FragmentActivity {
             }
         });
 
-        ParseUser currentUser = ParseUser.getCurrentUser();
-
-        String struser = currentUser.getUsername().toString();
 
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
         Calendar c = Calendar.getInstance();
@@ -137,9 +141,6 @@ public class Welcome extends FragmentActivity {
             }
         });
 
-
-        TextView txtUser = (TextView) findViewById(R.id.txtuser);
-        txtUser.setText("Welcome " + struser);
 
         final ListView list = (ListView) findViewById(R.id.lvdates);
 

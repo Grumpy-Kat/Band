@@ -1,53 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/values/values.xml -->
+    <eat-comment/>
+    <attr name="siArrowPosition">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+    </attr>
+    <attr name="siBorderType">
+        <enum name="stroke" value="0"/>
+        <enum name="fill" value="1"/>
+    </attr>
+    <attr name="siStrokeCap">
+        <enum name="butt" value="0"/>
+        <enum name="round" value="1"/>
+        <enum name="square" value="2"/>
+    </attr>
+    <attr name="siStrokeJoin">
+        <enum name="bevel" value="0"/>
+        <enum name="miter" value="1"/>
+        <enum name="round" value="2"/>
+    </attr>
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="btn_press_color">#66000000</color>
     <color name="btn_unpress_color">#22000000</color>
     <color name="dialog_bg">#ffe74c3c</color>
     <color name="divider_color">#11000000</color>
     <color name="msg_color">#FFFFFFFF</color>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="radio_button_selected_color">#ff33b5e5</color>
     <color name="radio_button_unselected_color">@android:color/transparent</color>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="text_color">#FFFFFF</color>
+    <declare-styleable name="FancyButtonsAttrs"><attr format="color" name="fb_defaultColor"/><attr format="string" name="fb_text"/><attr format="color" name="fb_textColor"/><attr format="color" name="fb_iconColor"/><attr format="string" name="fb_textFont"/><attr format="string" name="fb_iconFont"/><attr format="dimension" name="fb_textSize"/><attr format="integer" name="fb_iconResource"/><attr format="string" name="fb_fontIconResource"/><attr format="dimension" name="fb_fontIconSize"/><attr format="enum" name="fb_iconPosition"><enum name="left" value="1"/><enum name="right" value="2"/><enum name="top" value="3"/><enum name="bottom" value="4"/></attr><attr format="enum" name="fb_textPosition"><enum name="left" value="1"/><enum name="right" value="2"/><enum name="top" value="3"/><enum name="bottom" value="4"/></attr><attr format="enum" name="fb_textGravity"><enum name="top" value="0x30"/><enum name="bottom" value="0x50"/><enum name="left" value="0x03"/><enum name="right" value="0x05"/><enum name="center_vertical" value="0x10"/><enum name="fill_vertical" value="0x70"/><enum name="center_horizontal" value="0x01"/><enum name="fill_horizontal" value="0x07"/><enum name="center" value="0x11"/><enum name="fill" value="0x77"/><enum name="clip_vertical" value="0x80"/><enum name="clip_horizontal" value="0x08"/><enum name="start" value="0x00800003"/><enum name="end" value="0x00800005"/></attr><attr format="dimension" name="fb_iconPaddingLeft"/><attr format="dimension" name="fb_iconPaddingRight"/><attr format="dimension" name="fb_iconPaddingTop"/><attr format="dimension" name="fb_iconPaddingBottom"/><attr format="color" name="fb_borderColor"/><attr format="dimension" name="fb_borderWidth"/><attr format="color" name="fb_focusColor"/><attr format="dimension" name="fb_radius"/><attr format="boolean" name="fb_ghost"/></declare-styleable>
     <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
     <declare-styleable name="GifView"><attr format="boolean" name="freezesAnimation"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SegmentedGroup"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="tint_color"/><attr format="color" name="checked_text_color"/></declare-styleable>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/dimens.xml -->
+    <declare-styleable name="ShaderImageView"><attr format="boolean" name="siSquare"/><attr format="color" name="siBorderColor"/><attr format="dimension" name="siBorderWidth"/><attr format="float" name="siBorderAlpha"/><attr format="integer|reference" name="siForeground"/><attr format="dimension" name="siRadius"/><attr name="siArrowPosition"/><attr format="dimension" name="siTriangleHeight"/><attr format="integer|reference" name="siShape"/><attr name="siBorderType"/><attr name="siStrokeCap"/><attr name="siStrokeJoin"/><attr format="dimension" name="siStrokeMiter"/></declare-styleable>
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="dialog_padding">25dp</dimen>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/dimens.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="radio_button_conner_radius">5dp</dimen>
     <dimen name="radio_button_stroke_border">1dp</dimen>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">ParseStarterProject</string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="parse_app_id">hi</string>
     <string name="parse_client_key">yola</string>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="DialogWindowTitle">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/text_color</item>
     </style>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/values/values.xml -->
     <eat-comment/>
     <style name="RadioButton">
         <item name="android:textColor">@drawable/button_text_color</item>
@@ -58,7 +80,7 @@
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingRight">5dp</item>
     </style>
-    <!-- From: file:/C:/Band/Band/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="dialog_btn">
         <item name="android:layout_width">0dp</item>

@@ -2,15 +2,16 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.parse'
 
 buildscript {
-  repositories {
-    mavenCentral()
+    repositories {
+        mavenCentral()
 
-      maven { url 'https://maven.parse.com/repo' }
-  }
-  dependencies {
-    classpath 'com.parse.tools:gradle:1.+'
-  }
+        maven { url 'https://maven.parse.com/repo' }
+    }
+    dependencies {
+        classpath 'com.parse.tools:gradle:1.+'
+    }
 }
+
 
 dependencies {
     compile 'com.parse.bolts:bolts-android:1.2.0'
@@ -22,7 +23,8 @@ dependencies {
     compile 'info.hoang8f:android-segmented:1.0.5'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0@aar'
-
+    compile 'com.github.medyo:fancybuttons:1.4@aar'
+    compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
 }
 repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }

@@ -174,6 +174,9 @@ public class FTomorrow extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, final int position, long l) {
 
+
+
+
                 if (position == 1) {
                     final ParseObject gameScore = new ParseObject("dbBand");
 
