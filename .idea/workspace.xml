@@ -10,721 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8e5ed0-6f92-4564-817b-a468f4cd3518" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ContactUs$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ContactUs$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ContactUs$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.3-3ed6c1e1f8a2accfe9178a8c68f7e8a4a7d14d3b.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.3-d28c2f7b530eb43fed470c25ed59b28dceae8d30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/github/siyamed/shapeimageview/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/mehdi/sakout/fancybuttons/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/github/siyamed/shapeimageview/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/mehdi/sakout/fancybuttons/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/github/siyamed/shapeimageview/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/github/siyamed/shapeimageview/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/mehdi/sakout/fancybuttons/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/github/siyamed/shapeimageview/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/mehdi/sakout/fancybuttons/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_text_cursor_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_text_cursor_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_text_cursor_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_text_cursor_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/annotations.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/annotations.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-93caab58ac3618dd3415af50f2b576918359fefb.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-1d69e668b440c328e0686f326e2aa0da66ea16dd.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-3602fde7441d479c0b736289a6cb558e4410232b.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-6518fc7d258b2ba12f3a4db1f3326a3986260188.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-7c92cf529cd6a0bec768c8de3e8b114a41cebd82.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-a487ab87179c5fc3d845b8227a617e587c4b5613.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-a8a0155cc6d2a08f67af4736d99ee2a36a71c486.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-bee515dfda6765f1e5b277ffb8f1a9ff00eabd96.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-f79d9f38e9cf3507b4365de5e740495cb3551e86.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/net.frakbot/jumpingbeans/1.2.0/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/jars/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/assets/fonts/font.ttf.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/assets/fonts/font.ttf.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/assets/debug/iconfonts/fontawesome.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/assets/iconfonts/fontawesome.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-4367d3bd9b328ce5fde5c7fef30d2d592928a4bc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/arm64-v8a/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/armeabi/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/armeabi-v7a/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/mips/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/mips64/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/x86/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/x86_64/libpl_droidsonroids_gif.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/arm64-v8a/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/armeabi/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/armeabi-v7a/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/mips/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/mips64/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/x86/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/jni/x86_64/libpl_droidsonroids_gif_surface.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/library-2.4.0-9d60d030c7eaed879fc2b71fe0a3b7eda78fe2a3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/logotext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/logotext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/assets/debug/fonts/robotoregular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/assets/fonts/robotoregular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/yogi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/yogi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/assets/fonts/z.ttf.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/assets/fonts/z.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/net.frakbot/jumpingbeans/1.2.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/net.frakbot/jumpingbeans/1.2.0/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BandFinal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/assets/debug/fonts/Google Android License.txt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/assets/fonts/Google Android License.txt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/github/siyamed/shapeimageview/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/mehdi/sakout/fancybuttons/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/net.frakbot/jumpingbeans/1.2.0/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_bar_title_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_bar_up_container.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_mode_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_action_mode_close_item_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_activity_chooser_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_alert_dialog_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_btn_borderless_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_btn_check_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_btn_default_mtrl_shape.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_btn_radio_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_cab_background_internal_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_cab_background_top_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_dialog_material_background_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_dialog_material_background_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_dialog_title_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_edit_text_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_expanded_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_fade_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_fade_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_grow_fade_in_from_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_item_background_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_item_background_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_list_menu_item_icon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_list_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_list_menu_item_radio.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_list_selector_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_popup_enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_popup_exit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_popup_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_primary_text_disable_only_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_primary_text_disable_only_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_primary_text_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_primary_text_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_ratingbar_full_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_screen_content_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout-v11/abc_screen_content_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_screen_simple.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_screen_toolbar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_search_url_text.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_search_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_secondary_text_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/abc_secondary_text_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_select_dialog_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_shrink_fade_out_from_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/abc_simple_dropdown_hint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_slide_in_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_slide_in_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_slide_out_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_slide_out_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_spinner_textfield_background_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_switch_thumb_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_tab_indicator_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable/abc_textfield_search_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_gif_drawable_1_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_shape_imageview_0_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/contactus.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/contactus.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fancybuttons_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_diamond.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_diamond.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_heart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_heart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_hexagon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_hexagon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_octogon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_octogon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_pentagon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_pentagon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/raw/imgview_star.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/raw/imgview_star.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/proguard.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/select_dialog_item_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/select_dialog_multichoice_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/select_dialog_singlechoice_material.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/switch_thumb_material_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/color/switch_thumb_material_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-af/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-am/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ar/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-bg/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-bn-rBD/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ca/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-cs/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-da/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-de/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-el/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-en-rGB/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-en-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-es/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-es-rUS/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-et-rEE/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-eu-rES/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fa/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fr-rCA/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-gl-rES/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-h720dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-hdpi-v4/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-hi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-hr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-hu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-hy-rAM/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-in/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-is-rIS/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-it/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-iw/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ja/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ka-rGE/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-kk-rKZ/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-km-rKH/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-kn-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ko/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ky-rKG/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-land/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-large-v4/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-lo-rLA/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-lt/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-lv/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-mk-rMK/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ml-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-mn-rMN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-mr-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ms-rMY/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-my-rMM/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-nb/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ne-rNP/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-nl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-pl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-port/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-pt/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-pt-rPT/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ro/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ru/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-si-rLK/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sv/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sw/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sw600dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ta-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-te-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-th/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-tl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-tr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-uk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ur-rPK/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-uz-rUZ/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v11/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v12/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v14/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v17/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v18/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v21/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-vi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-w360dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-w480dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-w500dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-w600dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-w720dp-v13/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-xlarge-land-v4/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-xlarge-v4/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rCN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rHK/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rTW/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.4/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.github.siyamed/android-shape-imageview/0.9.2/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/net.frakbot/jumpingbeans/1.2.0/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.9/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/res/values/values.xml" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\.idea\libraries\android_gif_drawable_1_1_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\Band.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.3-941fc640f6bb792804a184dfab799507a3ef71a7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.3-f2d02fd5e2e9b45ac778f1abb11f1eddc319280c.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-f16bf64f94c2afaf922c8ece38e08fb43f6d9039.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-428a40b331aaa8dbf311d03f9a98cade784c5d49.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-4a6133306c3a3e538907b0f91b50c8856810a740.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-509ff6dfa79c547ebbb4baa34da8a27d5be47bc8.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-672bac9b23a5841f85e8280841d1339863de190b.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-a0d15e7124661f259d8eb1a5694ec42b348034b3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-ff6dfab3accc587a64e65e18e92709697fe3769c.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-a44f7cdb1b608dc0397a52bdb43fe102a95cc252.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\library-2.4.0-414ae11c276bc518134adc375ade0307a96d02f5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-3501ad9f65d70031412c2871972d578f39f8e600.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FZTickerText$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FZTickerText.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FZTickerText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots$Read$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/BookedSlots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ContactUs.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ContactUs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/CustomArrayAdapter.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/CustomArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/DayAfter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter$ParallaxStikkyAnimator.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter$ParallaxStikkyAnimator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FDayAfter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$ParallaxStikkyAnimator.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$ParallaxStikkyAnimator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FThirdDay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$10.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$11.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$12.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$6.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$7.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$8.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$9.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$ParallaxStikkyAnimator.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$ParallaxStikkyAnimator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow$Read.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/FTomorrow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$5.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/LoginSignupActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug-unaligned.apk" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/pl/droidsonroids/gif/R$attr.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/pl/droidsonroids/gif/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$color.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$color.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$color.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$dimen.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$drawable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$drawable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$id.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$layout.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$layout.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$raw.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$raw.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$string.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$string.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$style.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$style.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$style.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/info/hoang8f/android/segmented/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/it/carlom/stikkyheader/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/pl/droidsonroids/gif/R$styleable.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/pl/droidsonroids/gif/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/ThirdDay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow$Read.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Tomorrow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$1.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$2.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$3.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$4.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome.class" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/classes/debug/com/parse/starter/Welcome.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ContactUs.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ContactUs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" afterPath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/gitonway/lee/niftymodaldialogeffects/lib/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/parse/starter/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/parse/starter/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/info/hoang8f/android/segmented/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/info/hoang8f/android/segmented/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/it/carlom/stikkyheader/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/it/carlom/stikkyheader/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/pl/droidsonroids/gif/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/pl/droidsonroids/gif/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ThirdDay.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/ThirdDay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tomorrow.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tomorrow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Welcome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_login_signup.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_login_signup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/activity_welcome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_press.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_press.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_selector.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_unpress.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/btn_unpress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build.gradle" afterPath="$PROJECT_DIR$/ParseStarterProject/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/button_text_color.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/button_text_color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/dialog_bg.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/dialog_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/dialog_layout.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/dialog_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/fragment_parallax.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/fragment_parallax.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/homepage.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/homepage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/main.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/ParseStarterProject/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/myrow.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/myrow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/niftydialogeffects_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/niftydialogeffects_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/posts.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/posts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/postsactivity.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/postsactivity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/layout/postsactivity.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/postsactivity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/radio_button_item.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/radio_button_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_checked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_checked.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_unchecked.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/drawable/radio_unchecked.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/row.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/tomorrow.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/layout/tomorrow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-v14/values-v14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w360dp-v13/values-w360dp-v13.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w360dp-v13/values-w360dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w480dp-v13/values-w480dp-v13.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w480dp-v13/values-w480dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w500dp-v13/values-w500dp-v13.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w500dp-v13/values-w500dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w600dp-v13/values-w600dp-v13.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w600dp-v13/values-w600dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w720dp-v13/values-w720dp-v13.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values-w720dp-v13/values-w720dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BandFinal.iws" />
@@ -753,14 +80,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookedSlots.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookedSlots.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9144487">
-              <caret line="349" column="73" selection-start-line="349" selection-start-column="73" selection-end-line="349" selection-end-column="73" />
+            <state vertical-scroll-proportion="-13.068966">
+              <caret line="343" column="19" selection-start-line="343" selection-start-column="19" selection-end-line="343" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4201521">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -836,6 +176,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2400,8 +1747,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ParseStarterProject/build.gradle" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" />
-        <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/postsactivity.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_welcome.xml" />
@@ -2410,6 +1755,10 @@
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/Tomorrow.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/DayAfter.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FZTickerTest.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FZTickerText.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml" />
       </list>
     </option>
   </component>
@@ -2543,6 +1892,8 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4100160e8de3cf00" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
+    <property name="android.project.structure.last.selected" value="ParseStarterProject" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2744,6 +2095,13 @@
       <option name="number" value="Default" />
       <updated>1440176808325</updated>
     </task>
+    <task id="LOCAL-00001" summary="Todo : Tariff Page">
+      <created>1440184548824</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440184548824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2758,7 +2116,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.49755502" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2794,32 +2152,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8498099">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FTomorrow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2889,13 +2226,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/FZTickerText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9144487">
-          <caret line="349" column="73" selection-start-line="349" selection-start-column="73" selection-end-line="349" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#943#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5099099">
+          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/parse/starter/BookedSlots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.068966">
+          <caret line="343" column="19" selection-start-line="343" selection-start-column="19" selection-end-line="343" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/homepage.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4201521">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

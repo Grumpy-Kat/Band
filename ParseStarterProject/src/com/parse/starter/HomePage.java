@@ -10,7 +10,10 @@ import android.widget.TextView;
 
 import com.parse.ParseUser;
 
+import java.util.ArrayList;
+
 import mehdi.sakout.fancybuttons.FancyButton;
+
 /**
  * Created by Chirag Shenoy on 28-Jul-15.
  */
@@ -32,6 +35,20 @@ public class HomePage extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homepage);
 
+
+        FZTickerText ticker1 = (FZTickerText) findViewById(R.id.ticker1);
+
+        ArrayList<char[]> phrases = new ArrayList<char[]>();
+//        phrases.add(new String("We have a jamming party coming next Sunday !").toCharArray());
+        String s = new String();
+        s = "                                                                                    ";
+        s = s + "We have a jamming party coming next Sunday !";
+        phrases.add(s.toCharArray());
+
+
+        ticker1.ANIMATION_DELAY = 75;
+        ticker1.setPhrases(phrases);
+        ticker1.animationStart();
 
 //        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
 
