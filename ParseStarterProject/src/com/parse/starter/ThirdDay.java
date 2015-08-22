@@ -128,7 +128,7 @@ public class ThirdDay extends FragmentActivity {
                         .setButton1Click(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(v.getContext(), "Booked slot!", Toast.LENGTH_SHORT).show();
+//                                Toast.makeText(v.getContext(), "Booked slot!", Toast.LENGTH_SHORT).show();
                                 try {
                                     if (position == 0) {
                                         final ParseObject gameScore = new ParseObject("dbBand");
@@ -145,7 +145,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Successfully Booked Slot on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -181,7 +181,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -215,7 +215,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -250,7 +250,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -284,7 +284,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -318,7 +318,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -353,7 +353,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -388,7 +388,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -423,7 +423,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -457,7 +457,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -492,7 +492,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -526,7 +526,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -561,7 +561,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -597,7 +597,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -633,7 +633,7 @@ public class ThirdDay extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -699,9 +699,7 @@ public class ThirdDay extends FragmentActivity {
                             if (scoreList.size() > 0) {
                                 ob = new RowData();
                                 ob.setSlot(values[finalI]);
-                                ob.setTex("Busy");
-                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+                                ob.setTex("Slot Busy");
                                 rowDataList.add(ob);
 
 
@@ -719,9 +717,7 @@ public class ThirdDay extends FragmentActivity {
                             } else {
                                 ob = new RowData();
                                 ob.setSlot(values[finalI]);
-                                ob.setTex("available");
-                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+                                ob.setTex("Slot Available");
                                 rowDataList.add(ob);
                                 CustomArrayAdapter dataAdapter = new CustomArrayAdapter(ThirdDay.this, R.id.label, rowDataList);
                                 dataAdapter.sort(new Comparator<RowData>() {

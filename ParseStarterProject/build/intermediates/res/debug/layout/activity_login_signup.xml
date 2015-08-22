@@ -1,13 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <TextView android:id="@+id/txtuser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username"/>
-    <EditText android:id="@+id/username" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/txtuser" android:inputType="text"/>
-    <TextView android:id="@+id/txtpassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/username" android:text="Password"/>
-    <EditText android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/txtpassword" android:inputType="textPassword"/>
-    <Button android:id="@+id/login" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/password" android:text="Login"/>
-    <Button android:id="@+id/signup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/login" android:text="Signup"/>
 
-</LinearLayout><!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/layout/activity_login_signup.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/logotext" />
+
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtuser"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpassword"
+            android:inputType="textPassword" />
+
+
+        <TextView
+            android:id="@+id/txtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:text="Phone Number" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpassword"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="15dp"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:text="Signup" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Note : Phone number is only required at time of Sign Up.And don't worry, we wont spam you :)" />
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/layout/activity_login_signup.xml -->

@@ -25,6 +25,7 @@ dependencies {
     compile 'com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0@aar'
     compile 'com.github.medyo:fancybuttons:1.4@aar'
     compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+    compile 'com.beardedhen:androidbootstrap:+'
 }
 repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }

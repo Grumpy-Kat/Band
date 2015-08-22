@@ -126,7 +126,7 @@ public class Tomorrow extends FragmentActivity {
                         .setButton1Click(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(v.getContext(), "Booked slot!", Toast.LENGTH_SHORT).show();
+//                                Toast.makeText(v.getContext(), "Booked slot!", Toast.LENGTH_SHORT).show();
                                 try {
                                     if (position == 0) {
                                         final ParseObject gameScore = new ParseObject("dbBand");
@@ -143,7 +143,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked onfully Booked Slot on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -179,7 +179,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on " + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -213,7 +213,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -248,7 +248,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -282,7 +282,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -316,7 +316,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -351,7 +351,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -386,7 +386,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -421,7 +421,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -455,7 +455,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -490,7 +490,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -524,7 +524,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -559,7 +559,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -595,7 +595,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -631,7 +631,7 @@ public class Tomorrow extends FragmentActivity {
 
                                                 } else {
                                                     Toast.makeText(getApplicationContext(),
-                                                            "Success" + outputDate,
+                                                            "Slot Successfully Booked on" + outputDate,
                                                             Toast.LENGTH_SHORT).show();
                                                     gameScore.put("username", currentUser);
                                                     gameScore.put("bookedDate", outputDate);
@@ -663,7 +663,6 @@ public class Tomorrow extends FragmentActivity {
                         .setButton2Click(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-//                                                Toast.makeText(v.getContext(), "Back", Toast.LENGTH_SHORT).show();
                                 dialogBuilder.dismiss();
                             }
                         })
@@ -676,12 +675,10 @@ public class Tomorrow extends FragmentActivity {
     }
 
     public class Read extends AsyncTask<String, Integer, String> {
-        ProgressDialog pDialog;
 
         @Override
         protected String doInBackground(String... params) {
 
-            //  final_json_array = get_entire_json();
             try {
 
 
@@ -697,9 +694,7 @@ public class Tomorrow extends FragmentActivity {
                             if (scoreList.size() > 0) {
                                 ob = new RowData();
                                 ob.setSlot(values[finalI]);
-                                ob.setTex("Busy");
-                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+                                ob.setTex("Slot Busy");
                                 rowDataList.add(ob);
 
 
@@ -717,9 +712,8 @@ public class Tomorrow extends FragmentActivity {
                             } else {
                                 ob = new RowData();
                                 ob.setSlot(values[finalI]);
-                                ob.setTex("available");
-                                Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                                Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+                                ob.setTex("Slot Available");
+
                                 rowDataList.add(ob);
                                 CustomArrayAdapter dataAdapter = new CustomArrayAdapter(Tomorrow.this, R.id.label, rowDataList);
                                 dataAdapter.sort(new Comparator<RowData>() {
@@ -740,12 +734,6 @@ public class Tomorrow extends FragmentActivity {
                 }
 
 
-
-                    /*CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
-                    listView.setAdapter(dataAdapter);
-*/
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -757,21 +745,12 @@ public class Tomorrow extends FragmentActivity {
 
         @Override
         protected void onPreExecute() {
-            // Showing progress dialog before sending http request
 
-            /*pDialog = new ProgressDialog(DayAfter.this);
-            pDialog.setMessage("Please wait..");
-            pDialog.setIndeterminate(true);
-            pDialog.setCancelable(false);
-           // pDialog.show();*/
         }
 
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            //pDialog.dismiss();
-
-
         }
     }
 

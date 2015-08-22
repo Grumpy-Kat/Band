@@ -8,32 +8,32 @@ package info.hoang8f.android.segmented;
 
 public final class R {
 	public static final class attr {
-		public static final int border_width = 0x7f010022;
-		public static final int checked_text_color = 0x7f010024;
-		public static final int corner_radius = 0x7f010021;
-		public static final int tint_color = 0x7f010023;
+		public static final int border_width = 0x7f010034;
+		public static final int checked_text_color = 0x7f010036;
+		public static final int corner_radius = 0x7f010033;
+		public static final int tint_color = 0x7f010035;
 	}
 	public static final class color {
-		public static final int radio_button_selected_color = 0x7f070005;
-		public static final int radio_button_unselected_color = 0x7f070006;
+		public static final int radio_button_selected_color = 0x7f070036;
+		public static final int radio_button_unselected_color = 0x7f070037;
 	}
 	public static final class dimen {
-		public static final int radio_button_conner_radius = 0x7f060004;
-		public static final int radio_button_stroke_border = 0x7f060005;
+		public static final int radio_button_conner_radius = 0x7f05000a;
+		public static final int radio_button_stroke_border = 0x7f05000b;
 	}
 	public static final class drawable {
-		public static final int button_text_color = 0x7f020004;
-		public static final int radio_checked = 0x7f02000b;
-		public static final int radio_unchecked = 0x7f02000c;
+		public static final int button_text_color = 0x7f020015;
+		public static final int radio_checked = 0x7f020022;
+		public static final int radio_unchecked = 0x7f020023;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f090000;
+		public static final int app_name = 0x7f090001;
 	}
 	public static final class style {
-		public static final int RadioButton = 0x7f050002;
+		public static final int RadioButton = 0x7f060002;
 	}
 	public static final class styleable {
-		public static final int[] SegmentedGroup = { 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024 };
+		public static final int[] SegmentedGroup = { 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036 };
 		public static final int SegmentedGroup_border_width = 1;
 		public static final int SegmentedGroup_checked_text_color = 3;
 		public static final int SegmentedGroup_corner_radius = 0;

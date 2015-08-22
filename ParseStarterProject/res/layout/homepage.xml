@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
         xmlns:fancy="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,9 +22,9 @@
         <com.parse.starter.FZTickerText
             android:id="@+id/ticker1"
             android:layout_width="fill_parent"
-            android:fontFamily="sans-serif-condensed"
             android:layout_height="wrap_content"
             android:background="@android:color/black"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#ffffff" />
 
         <TextView
@@ -63,7 +65,7 @@
                 fancy:fb_iconPosition="left"
                 fancy:fb_radius="30dp"
                 fancy:fb_text="Book Now"
-                fancy:fb_textColor="#000000" />
+                fancy:fb_textColor="#ffffff" />
 
             <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/tariff"
@@ -83,7 +85,7 @@
                 fancy:fb_iconPosition="left"
                 fancy:fb_radius="30dp"
                 fancy:fb_text="Tariff"
-                fancy:fb_textColor="#000000" />
+                fancy:fb_textColor="#ffffff" />
 
         </LinearLayout>
 
@@ -110,7 +112,7 @@
                 fancy:fb_iconPosition="left"
                 fancy:fb_radius="30dp"
                 fancy:fb_text="Contact Us"
-                fancy:fb_textColor="#000000" />
+                fancy:fb_textColor="#ffffff" />
 
             <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/bookedslots"
@@ -128,7 +130,7 @@
                 fancy:fb_iconPosition="left"
                 fancy:fb_radius="30dp"
                 fancy:fb_text="My Booked Slots"
-                fancy:fb_textColor="#000000" />
+                fancy:fb_textColor="#ffffff" />
         </LinearLayout>
 
         <mehdi.sakout.fancybuttons.FancyButton
@@ -148,7 +150,7 @@
             fancy:fb_iconPosition="left"
             fancy:fb_radius="30dp"
             fancy:fb_text="Log Out"
-            fancy:fb_textColor="#000000" />
+            fancy:fb_textColor="#ffffff" />
 
     </LinearLayout>
 </ScrollView>

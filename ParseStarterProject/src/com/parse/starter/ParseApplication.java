@@ -5,6 +5,7 @@ import android.app.Application;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseCrashReporting;
+import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
@@ -23,6 +24,7 @@ public class ParseApplication extends Application {
     // Add your initialization code here
     //the commented initialize is for my account this one below is eswara ids
     Parse.initialize(this, "wO2LX0IkMddzyQ7YAkgxVP1zFVHx8mRsRTIqjKjV", "rBGnc5dc7b1zqR3mTwETQdmNiyNoTbvuctGjkUlm");
+    ParseInstallation.getCurrentInstallation().saveInBackground();
     //Parse.initialize(this, "RJk6pZKbzFQ87dbSeyhsdIjif2xCIWdDrAsy8oo4", "v6rP4WMfoZjgKKxMhynUMXg9Hz4cyaSOCrzty32d");
    // Parse.initialize(this);
 

@@ -1,194 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/letssee"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
--->
 
-    <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/mL"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/guit"
-        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Select a suitable date to book your slot/slots" />
 
-        <TextView
+
+    <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:border_width="2dp"
+        segmentedgroup:corner_radius="10dp">
+
+        <RadioButton
+            android:id="@+id/button21"
+            style="@style/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Select a suitable date to book your slot/slots" />
+            android:checked="true"
+            android:text="Basic" />
 
-
-        <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/segmented2"
+        <RadioButton
+            android:id="@+id/button22"
+            style="@style/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:orientation="horizontal"
-            segmentedgroup:border_width="2dp"
-            segmentedgroup:corner_radius="10dp">
-
-            <RadioButton
-                android:id="@+id/button21"
-                style="@style/RadioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="Basic" />
-
-            <RadioButton
-                android:id="@+id/button22"
-                style="@style/RadioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Production" />
-        </info.hoang8f.android.segmented.SegmentedGroup>
+            android:text="Production" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
 
 
-        <ListView
-            android:id="@+id/lvdates"
+    <ListView
+        android:id="@+id/lvdates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    </ListView>
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/basic"
             android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Addons at Rs.50 per hour"
+                android:textColor="#D4D60C"
+                android:typeface="sans" />
+
+            <CheckBox
+                android:id="@+id/Yamaha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yamaha PSR 2100 Keyboard" />
+
+            <CheckBox
+                android:id="@+id/Guitar6String"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6 String Ibanex Guitar" />
+
+            <CheckBox
+                android:id="@+id/GuitarAcoustic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fender Acoustic Guitar" />
+
+            <CheckBox
+                android:id="@+id/Bass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 String Bass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Addons at Rs.100 per hour"
+                android:textColor="#D4D60C"
+                android:typeface="sans" />
+
+            <CheckBox
+                android:id="@+id/recordentirejam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recording Entire Jam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Addons at Rs.150 per hour"
+                android:textColor="#D4D60C"
+                android:typeface="sans" />
+
+            <CheckBox
+                android:id="@+id/recordentirejamandstuff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recording Entire Jam + Separate Files of each instrument for future mixing" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/production"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center">
+            android:orientation="vertical">
 
-        </ListView>
-
-        <ScrollView
-            android:id="@+id/scroll1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/basic"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Addons at Rs.50 per hour" />
-
-                <CheckBox
-                    android:id="@+id/Yamaha"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Yamaha PSR 2100 Keyboard" />
-
-                <CheckBox
-                    android:id="@+id/Guitar6String"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="6 String Ibanex Guitar" />
-
-                <CheckBox
-                    android:id="@+id/GuitarAcoustic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Fender Acoustic Guitar" />
-
-                <CheckBox
-                    android:id="@+id/Bass"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="5 String Bass" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Addons at Rs.100 per hour" />
-
-                <CheckBox
-                    android:id="@+id/recordentirejam"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Recording Entire Jam" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Addons at Rs.150 per hour" />
-
-                <CheckBox
-                    android:id="@+id/recordentirejamandstuff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Recording Entire Jam + Separate Files of each instrument for future mixing" />
-
-
-            </LinearLayout>
-        </ScrollView>
-
-        <ScrollView
-            android:id="@+id/scroll2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <LinearLayout
-                android:id="@+id/production"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_gravity="center_horizontal"
+                android:text="Addons at Rs.2000 per hour"
+                android:textColor="#D4D60C"
+                android:typeface="sans" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Addons at Rs.2000 per hour" />
+            <CheckBox
+                android:id="@+id/drummidi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drum Midi Replacement using High Quality Presets" />
 
-                <CheckBox
-                    android:id="@+id/drummidi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Drum Midi Replacement using High Quality Presets" />
+            <CheckBox
+                android:id="@+id/drummidiediting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drum Midi Editing (Dynamics,Ghost notes,cymbal selection,adding fills/rolls" />
 
-                <CheckBox
-                    android:id="@+id/drummidiediting"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Drum Midi Editing (Dynamics,Ghost notes,cymbal selection,adding fills/rolls" />
+            <CheckBox
+                android:id="@+id/drumprogramming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drum Programming from scratch" />
 
-                <CheckBox
-                    android:id="@+id/drumprogramming"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Drum Programming from scratch" />
+            <CheckBox
+                android:id="@+id/guitarbassreamping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guitar/Bass Reamping" />
 
-                <CheckBox
-                    android:id="@+id/guitarbassreamping"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guitar/Bass Reamping" />
+            <CheckBox
+                android:id="@+id/editingofsession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editing Of Session" />
 
-                <CheckBox
-                    android:id="@+id/editingofsession"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Editing Of Session" />
+            <CheckBox
+                android:id="@+id/Mixing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mixing" />
 
-                <CheckBox
-                    android:id="@+id/Mixing"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mixing" />
-
-                <CheckBox
-                    android:id="@+id/mastering"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mastering" />
+            <CheckBox
+                android:id="@+id/mastering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mastering" />
 
 
-            </LinearLayout>
+        </LinearLayout>
 
-        </ScrollView>
+    </ScrollView>
 
 
-    </LinearLayout>
+</LinearLayout>
 

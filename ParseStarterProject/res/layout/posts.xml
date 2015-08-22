@@ -10,30 +10,42 @@
 
     <LinearLayout
         android:id="@+id/ll"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="200dp"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="My Booked Slots"
+            android:textColor="#D4D60C"
+            android:textSize="25sp" />
 
 
         <TextView
             android:id="@+id/today"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/tomorrow"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/dayafter"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/thirdday"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
 
     </LinearLayout>
 

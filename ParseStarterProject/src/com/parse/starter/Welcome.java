@@ -1,8 +1,11 @@
 package com.parse.starter;
 
 import android.app.FragmentManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -16,6 +19,7 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.parse.ParseUser;
 
@@ -156,9 +160,63 @@ public class Welcome extends FragmentActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                if (position == 0) {
 
-                    if (savedInstanceState == null) {
+                if (isNetworkAvailable()) {
+
+
+                    if (position == 0) {
+
+                        if (savedInstanceState == null) {
+                            if (yamaha.isChecked())
+                                bundle.putInt("Yamaha", 50);
+                            else
+                                bundle.putInt("Yamaha", 0);
+
+                            if (guitar6.isChecked())
+                                bundle.putInt("6Guitar", 50);
+                            else
+                                bundle.putInt("6Guitar", 0);
+
+                            if (fender.isChecked())
+                                bundle.putInt("FenderGuitar", 50);
+                            else
+                                bundle.putInt("FenderGuitar", 0);
+
+                            if (bass5.isChecked())
+                                bundle.putInt("5Bass", 50);
+                            else
+                                bundle.putInt("5Bass", 0);
+
+                            if (ejam.isChecked())
+
+                                bundle.putInt("Ejam", 100);
+                            else
+                                bundle.putInt("Ejam", 0);
+
+                            if (ejamMix.isChecked())
+                                bundle.putInt("EjamSeparate", 150);
+                            else
+                                bundle.putInt("EjamSeparate", 0);
+                      /*
+                        if(drumMidi.isChecked())
+                            bundle.putInt("DrumMidi",2000);
+                        else
+                            bundle.putInt("DrumMidi",0);*/
+                            //drumMidiEditing, drumProgramming, gReamping, editingSession, mixing, mastering;
+
+                            Intent intent = new Intent(Welcome.this, Tomorrow.class);
+                            intent.putExtras(bundle);
+                            startActivity(intent);
+
+                        /*Fragment fragment = null;
+                        fragment = new FTomorrow();
+                        fragment.setArguments(bundle);
+                        loadFragment(fragment);*/
+
+                        }
+
+                    }
+                    if (position == 1) {
                         if (yamaha.isChecked())
                             bundle.putInt("Yamaha", 50);
                         else
@@ -189,59 +247,9 @@ public class Welcome extends FragmentActivity {
                             bundle.putInt("EjamSeparate", 150);
                         else
                             bundle.putInt("EjamSeparate", 0);
-                      /*
-                        if(drumMidi.isChecked())
-                            bundle.putInt("DrumMidi",2000);
-                        else
-                            bundle.putInt("DrumMidi",0);*/
-                        //drumMidiEditing, drumProgramming, gReamping, editingSession, mixing, mastering;
-
-                        Intent intent = new Intent(Welcome.this, Tomorrow.class);
+                        Intent intent = new Intent(Welcome.this, DayAfter.class);
                         intent.putExtras(bundle);
                         startActivity(intent);
-
-                        /*Fragment fragment = null;
-                        fragment = new FTomorrow();
-                        fragment.setArguments(bundle);
-                        loadFragment(fragment);*/
-
-                    }
-
-                }
-                if (position == 1) {
-                    if (yamaha.isChecked())
-                        bundle.putInt("Yamaha", 50);
-                    else
-                        bundle.putInt("Yamaha", 0);
-
-                    if (guitar6.isChecked())
-                        bundle.putInt("6Guitar", 50);
-                    else
-                        bundle.putInt("6Guitar", 0);
-
-                    if (fender.isChecked())
-                        bundle.putInt("FenderGuitar", 50);
-                    else
-                        bundle.putInt("FenderGuitar", 0);
-
-                    if (bass5.isChecked())
-                        bundle.putInt("5Bass", 50);
-                    else
-                        bundle.putInt("5Bass", 0);
-
-                    if (ejam.isChecked())
-
-                        bundle.putInt("Ejam", 100);
-                    else
-                        bundle.putInt("Ejam", 0);
-
-                    if (ejamMix.isChecked())
-                        bundle.putInt("EjamSeparate", 150);
-                    else
-                        bundle.putInt("EjamSeparate", 0);
-                    Intent intent = new Intent(Welcome.this, DayAfter.class);
-                    intent.putExtras(bundle);
-                    startActivity(intent);
                     /*if (savedInstanceState == null) {
                         Fragment fragment = null;
                         fragment = new FDayAfter();
@@ -250,51 +258,57 @@ public class Welcome extends FragmentActivity {
                     }
 */
 
-                }
-                if (position == 2) {
-                    if (yamaha.isChecked())
-                        bundle.putInt("Yamaha", 50);
-                    else
-                        bundle.putInt("Yamaha", 0);
+                    }
+                    if (position == 2) {
+                        if (yamaha.isChecked())
+                            bundle.putInt("Yamaha", 50);
+                        else
+                            bundle.putInt("Yamaha", 0);
 
-                    if (guitar6.isChecked())
-                        bundle.putInt("6Guitar", 50);
-                    else
-                        bundle.putInt("6Guitar", 0);
+                        if (guitar6.isChecked())
+                            bundle.putInt("6Guitar", 50);
+                        else
+                            bundle.putInt("6Guitar", 0);
 
-                    if (fender.isChecked())
-                        bundle.putInt("FenderGuitar", 50);
-                    else
-                        bundle.putInt("FenderGuitar", 0);
+                        if (fender.isChecked())
+                            bundle.putInt("FenderGuitar", 50);
+                        else
+                            bundle.putInt("FenderGuitar", 0);
 
-                    if (bass5.isChecked())
-                        bundle.putInt("5Bass", 50);
-                    else
-                        bundle.putInt("5Bass", 0);
+                        if (bass5.isChecked())
+                            bundle.putInt("5Bass", 50);
+                        else
+                            bundle.putInt("5Bass", 0);
 
-                    if (ejam.isChecked())
+                        if (ejam.isChecked())
 
-                        bundle.putInt("Ejam", 100);
-                    else
-                        bundle.putInt("Ejam", 0);
+                            bundle.putInt("Ejam", 100);
+                        else
+                            bundle.putInt("Ejam", 0);
 
-                    if (ejamMix.isChecked())
-                        bundle.putInt("EjamSeparate", 150);
-                    else
-                        bundle.putInt("EjamSeparate", 0);
-                    Intent intent = new Intent(Welcome.this, ThirdDay.class);
-                    intent.putExtras(bundle);
-                    startActivity(intent);
+                        if (ejamMix.isChecked())
+                            bundle.putInt("EjamSeparate", 150);
+                        else
+                            bundle.putInt("EjamSeparate", 0);
+                        Intent intent = new Intent(Welcome.this, ThirdDay.class);
+                        intent.putExtras(bundle);
+                        startActivity(intent);
                     /*if (savedInstanceState == null) {
                         Fragment fragment = null;
                         fragment = new FThirdDay();
                         loadFragment(fragment);*/
 
-                    //}
+                        //}
 
+                    }
+                } else {
+                    Toast.makeText(
+                            getApplicationContext(),
+                            "Connected to the Internet to Proceed",
+                            Toast.LENGTH_SHORT).show();
                 }
-
             }
+
 
         });
 
@@ -333,6 +347,13 @@ public class Welcome extends FragmentActivity {
 
 
     }*/
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
 
 
 }

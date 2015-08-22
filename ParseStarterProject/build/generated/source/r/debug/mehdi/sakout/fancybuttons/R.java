@@ -8,28 +8,28 @@ package mehdi.sakout.fancybuttons;
 
 public final class R {
 	public static final class attr {
-		public static final int fb_borderColor = 0x7f010015;
-		public static final int fb_borderWidth = 0x7f010016;
-		public static final int fb_defaultColor = 0x7f010004;
-		public static final int fb_focusColor = 0x7f010017;
-		public static final int fb_fontIconResource = 0x7f01000c;
-		public static final int fb_fontIconSize = 0x7f01000d;
-		public static final int fb_ghost = 0x7f010019;
-		public static final int fb_iconColor = 0x7f010007;
-		public static final int fb_iconFont = 0x7f010009;
-		public static final int fb_iconPaddingBottom = 0x7f010014;
-		public static final int fb_iconPaddingLeft = 0x7f010011;
-		public static final int fb_iconPaddingRight = 0x7f010012;
-		public static final int fb_iconPaddingTop = 0x7f010013;
-		public static final int fb_iconPosition = 0x7f01000e;
-		public static final int fb_iconResource = 0x7f01000b;
-		public static final int fb_radius = 0x7f010018;
-		public static final int fb_text = 0x7f010005;
-		public static final int fb_textColor = 0x7f010006;
-		public static final int fb_textFont = 0x7f010008;
-		public static final int fb_textGravity = 0x7f010010;
-		public static final int fb_textPosition = 0x7f01000f;
-		public static final int fb_textSize = 0x7f01000a;
+		public static final int fb_borderColor = 0x7f010026;
+		public static final int fb_borderWidth = 0x7f010027;
+		public static final int fb_defaultColor = 0x7f010015;
+		public static final int fb_focusColor = 0x7f010028;
+		public static final int fb_fontIconResource = 0x7f01001d;
+		public static final int fb_fontIconSize = 0x7f01001e;
+		public static final int fb_ghost = 0x7f01002a;
+		public static final int fb_iconColor = 0x7f010018;
+		public static final int fb_iconFont = 0x7f01001a;
+		public static final int fb_iconPaddingBottom = 0x7f010025;
+		public static final int fb_iconPaddingLeft = 0x7f010022;
+		public static final int fb_iconPaddingRight = 0x7f010023;
+		public static final int fb_iconPaddingTop = 0x7f010024;
+		public static final int fb_iconPosition = 0x7f01001f;
+		public static final int fb_iconResource = 0x7f01001c;
+		public static final int fb_radius = 0x7f010029;
+		public static final int fb_text = 0x7f010016;
+		public static final int fb_textColor = 0x7f010017;
+		public static final int fb_textFont = 0x7f010019;
+		public static final int fb_textGravity = 0x7f010021;
+		public static final int fb_textPosition = 0x7f010020;
+		public static final int fb_textSize = 0x7f01001b;
 	}
 	public static final class id {
 		public static final int bottom = 0x7f08000a;
@@ -48,7 +48,7 @@ public final class R {
 		public static final int top = 0x7f08000b;
 	}
 	public static final class styleable {
-		public static final int[] FancyButtonsAttrs = { 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019 };
+		public static final int[] FancyButtonsAttrs = { 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a };
 		public static final int FancyButtonsAttrs_fb_borderColor = 17;
 		public static final int FancyButtonsAttrs_fb_borderWidth = 18;
 		public static final int FancyButtonsAttrs_fb_defaultColor = 0;

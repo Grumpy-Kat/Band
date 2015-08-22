@@ -265,8 +265,10 @@ public class BookedSlots extends FragmentActivity {
                                         ansToday += 300;
                                     }
 
-                                    tvtoday.setText("Today's Amount " + ansToday);
-
+                                    if (ansToday != 0)
+                                        tvtoday.setText("Amount to be paid today - Rs " + ansToday);
+                                    else
+                                        tvtoday.setVisibility(View.GONE);
                                 }
 
                                 //Tomorrow
@@ -292,9 +294,11 @@ public class BookedSlots extends FragmentActivity {
                                         ansTomorrow += 300;
                                     }
 
-
-                                    tvtomorrow.setText("Tomorrow's Amount " + ansTomorrow);
-
+                                    if (ansTomorrow != 0)
+                                        tvtomorrow.setText("Amount to be paid on " + outputDate + " - Rs " + ansTomorrow);
+                                    else {
+                                        tvtomorrow.setVisibility(View.GONE);
+                                    }
 
                                 }
 
@@ -320,7 +324,12 @@ public class BookedSlots extends FragmentActivity {
                                     if (count2 <= 3) {
                                         ansDayAfter += 300;
                                     }
-                                    tvdayafter.setText("Day After Tomorrow's Amount - " + ansDayAfter);
+
+                                    if (ansDayAfter != 0)
+                                        tvdayafter.setText("Amount to be paid on " + outputDate2 + " - Rs " + ansDayAfter);
+                                    else {
+                                        tvdayafter.setVisibility(View.GONE);
+                                    }
 
                                 }
                                 //third
@@ -347,8 +356,11 @@ public class BookedSlots extends FragmentActivity {
                                         ansThird += 300;
                                     }
                                 }
-                                tvthirdday.setText("Third day's Amount - " + ansThird);
-
+                                if (ansThird != 0)
+                                    tvthirdday.setText("Amount to be paid on " + outputDate3 + " - Rs " + ansThird);
+                                else {
+                                    tvthirdday.setVisibility(View.GONE);
+                                }
                             }
 
 
@@ -367,8 +379,7 @@ public class BookedSlots extends FragmentActivity {
                             ob = new RowData();
                             ob.setSlot("No booked slots");
                             ob.setTex("");
-                            Log.d(ob.getTex(), "GOT TEXT BOYSA ");
-                            Log.d(ob.getSlot(), "GOT TEXT BOYSA ");
+
                             rowDataList.add(ob);
                             CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
                             dataAdapter.sort(new Comparator<RowData>() {
@@ -387,14 +398,6 @@ public class BookedSlots extends FragmentActivity {
                 });
 
 
-
-
-
-                    /*CustomArrayAdapter dataAdapter = new CustomArrayAdapter(DayAfter.this, R.id.label, rowDataList);
-                    listView.setAdapter(dataAdapter);
-*/
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -406,13 +409,7 @@ public class BookedSlots extends FragmentActivity {
 
         @Override
         protected void onPreExecute() {
-            // Showing progress dialog before sending http request
 
-            /*pDialog = new ProgressDialog(DayAfter.this);
-            pDialog.setMessage("Please wait..");
-            pDialog.setIndeterminate(true);
-            pDialog.setCancelable(false);
-           // pDialog.show();*/
         }
 
         @Override

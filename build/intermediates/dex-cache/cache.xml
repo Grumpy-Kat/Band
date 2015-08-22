@@ -2,18 +2,109 @@
 <items version="2" >
 
     <item
-        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\uk.co.chrisjenx\calligraphy\2.1.0\jars\classes.jar"
+        jar="C:\Users\Chirag Shenoy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
-        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-2b6970082d7874d18e54f7ba77811a68c0530dc7.jar" />
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\bolts-android-1.2.0-93caab58ac3618dd3415af50f2b576918359fefb.jar" />
     </item>
     <item
-        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.github.carlonzo.stikkyheader\core\0.0.3-SNAPSHOT\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-a756a13f218ffbaa19e1da6aa7bcce6af816d558.jar" />
+        sha1="74c7d3a2feb4aa499e6799481bdbec19066449eb">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-a487ab87179c5fc3d845b8227a617e587c4b5613.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chirag Shenoy\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\library-2.4.0-9d60d030c7eaed879fc2b71fe0a3b7eda78fe2a3.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\internal_impl-22.2.0-4367d3bd9b328ce5fde5c7fef30d2d592928a4bc.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\libs\ParseCrashReporting-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\ParseCrashReporting-1.9.3-d28c2f7b530eb43fed470c25ed59b28dceae8d30.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.github.sd6352051.niftydialogeffects\niftydialogeffects\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f6e011916db951e72f3a2be65cfb864bf5408035">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-3602fde7441d479c0b736289a6cb558e4410232b.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.beardedhen\androidbootstrap\1.2.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="11cd8b9af3b27673eceda7335192cd01b423ef26">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-b109b2b176082e0ef776fadd07f43d6dbd5dd137.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\info.hoang8f\android-segmented\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fca96856c842448368d6003a145089f03c8df0e3">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-a8a0155cc6d2a08f67af4736d99ee2a36a71c486.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.1.9\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="741941bec80d0ab35edf9cee5410862cdac81f70">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-1d69e668b440c328e0686f326e2aa0da66ea16dd.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.github.siyamed\android-shape-imageview\0.9.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d048a86aa4547b90ed59f2a933f98345a316aeb3">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-bee515dfda6765f1e5b277ffb8f1a9ff00eabd96.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="94ef1ade258bceda0417115fd5330a550341ba60">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-7c92cf529cd6a0bec768c8de3e8b114a41cebd82.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-6518fc7d258b2ba12f3a4db1f3326a3986260188.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\classes-f79d9f38e9cf3507b4365de5e740495cb3551e86.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\libs\Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\Parse-1.9.3-3ed6c1e1f8a2accfe9178a8c68f7e8a4a7d14d3b.jar" />
+    </item>
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\AndroidStudioProjects\BandFinal\ParseStarterProject\build\intermediates\pre-dexed\release\support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" />
     </item>
 
 </items>
