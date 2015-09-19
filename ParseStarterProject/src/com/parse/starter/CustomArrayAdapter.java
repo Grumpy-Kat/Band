@@ -1,31 +1,28 @@
 package com.parse.starter;
 
 import android.content.Context;
-import android.view.Gravity;
+import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.ImageView;
+import android.widget.CompoundButton;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.parse.starter.RowData;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 /**
  * Created by Venkatesh on 5/16/2015.
  */
-public class CustomArrayAdapter extends ArrayAdapter<RowData> {
+public class CustomArrayAdapter extends ArrayAdapter<RowData> implements CompoundButton.OnCheckedChangeListener {
     private ArrayList<RowData> list, list1;
     int count = 0;
     private Context x;
     int posG;
+    SparseBooleanArray mCheckStates;
+
 
     //this custom adapter receives an ArrayList of RowData objects.
     //RowData is my class that represents the data for a single row and could be anything.
@@ -36,6 +33,8 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData> {
         this.list = new ArrayList<RowData>();
         this.list.addAll(rowDataList);
         list1 = rowDataList;
+        mCheckStates = new SparseBooleanArray(25);
+
     }
 
 
@@ -55,7 +54,9 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData> {
 
         holder.title = (TextView) convertView.findViewById(R.id.tvslot);
 
-        holder.counter = (TextView) convertView.findViewById(R.id.label);
+        holder.label = (TextView) convertView.findViewById(R.id.label);
+
+        holder.chkSelect = (CheckBox) convertView.findViewById(R.id.check);
 
 
         //define an onClickListener for the CheckBox.
@@ -67,25 +68,53 @@ public class CustomArrayAdapter extends ArrayAdapter<RowData> {
         holder.title.setText(list1.get(position).getSlot());
 
         if (list1.get(position).getTex() == "Slot Busy") {
-            holder.counter.setTextColor(0xffff0000);
+            holder.chkSelect.setVisibility(View.GONE);
+            holder.label.setTextColor(0xffff0000);
         } else {
-            holder.counter.setTextColor(0xff00ff00);
+            holder.label.setTextColor(0xff00ff00);
 
         }
 
 //        holder.counter.setGravity(Gravity.CENTER);
-        holder.counter.setText(list1.get(position).getTex());
+        holder.label.setText(list1.get(position).getTex());
+        holder.chkSelect.setTag(position);
+        holder.chkSelect.setChecked(mCheckStates.get(position, false));
+        holder.chkSelect.setOnCheckedChangeListener(this);
 
 
         //return the row view.
         return convertView;
     }
 
+    public boolean isChecked(int position) {
+        return mCheckStates.get(position, false);
+    }
+
+    public void setChecked(int position, boolean isChecked) {
+        mCheckStates.put(position, isChecked);
+
+    }
+
+    public void toggle(int position) {
+        setChecked(position, !isChecked(position));
+
+    }
+
+    public void setBusy(int position) {
+
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        mCheckStates.put((Integer) compoundButton.getTag(), b);
+    }
+
 
     static class ViewHolder {
 
         TextView title;
-        TextView counter;
+        TextView label;
+        CheckBox chkSelect;
 
     }
 }

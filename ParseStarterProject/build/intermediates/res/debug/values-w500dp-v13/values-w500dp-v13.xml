@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values-w500dp-v13/values.xml -->
+    <!-- From: file:/home/kai/AndroidStudioProjects/Bandv1/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/values-w500dp-v13/values.xml -->
     <eat-comment/>
     <dimen name="dialog_padding">64dp</dimen>
 </resources>

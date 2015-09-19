@@ -717,7 +717,7 @@ containing a value of this type.
         public static final int GuitarAcoustic=0x7f080026;
         public static final int Mixing=0x7f080031;
         public static final int Yamaha=0x7f080024;
-        public static final int action_settings=0x7f080060;
+        public static final int action_settings=0x7f080062;
         public static final int alertTitle=0x7f080043;
         public static final int basic=0x7f080023;
         public static final int bevel=0x7f080008;
@@ -733,8 +733,10 @@ containing a value of this type.
         public static final int center=0x7f08000c;
         public static final int center_horizontal=0x7f08000d;
         public static final int center_vertical=0x7f08000e;
+        public static final int check=0x7f080060;
         public static final int clip_horizontal=0x7f08000f;
         public static final int clip_vertical=0x7f080010;
+        public static final int confirmBook=0x7f08005d;
         public static final int contactus=0x7f080052;
         public static final int container=0x7f080037;
         public static final int contentPanel=0x7f080045;
@@ -756,7 +758,7 @@ containing a value of this type.
         public static final int icon=0x7f080042;
         public static final int image=0x7f08003a;
         public static final int item_touch_helper_previous_elevation=0x7f080000;
-        public static final int label=0x7f08005e;
+        public static final int label=0x7f08005f;
         public static final int layout=0x7f080033;
         public static final int lblLeft=0x7f080034;
         public static final int lblMiddle=0x7f080035;
@@ -769,7 +771,7 @@ containing a value of this type.
         public static final int logout=0x7f080054;
         public static final int lv1=0x7f08004b;
         public static final int lvdates=0x7f080021;
-        public static final int lvtomorrow=0x7f08005f;
+        public static final int lvtomorrow=0x7f080061;
         public static final int mL=0x7f08001d;
         public static final int mail=0x7f08003d;
         public static final int main=0x7f08003e;
@@ -804,7 +806,7 @@ containing a value of this type.
         public static final int tomorrow=0x7f080058;
         public static final int top=0x7f08000b;
         public static final int topPanel=0x7f080040;
-        public static final int tvslot=0x7f08005d;
+        public static final int tvslot=0x7f08005e;
         public static final int txtpassword=0x7f080017;
         public static final int txtphone=0x7f080019;
         public static final int txtuser=0x7f080015;
@@ -827,7 +829,8 @@ containing a value of this type.
         public static final int postsactivity=0x7f03000d;
         public static final int radio_button_item=0x7f03000e;
         public static final int row=0x7f03000f;
-        public static final int tomorrow=0x7f030010;
+        public static final int rowforbookedslots=0x7f030010;
+        public static final int tomorrow=0x7f030011;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;

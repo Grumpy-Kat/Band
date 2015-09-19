@@ -1,18 +1,12 @@
 package com.parse.starter;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
-import android.view.LayoutInflater;
-
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,18 +17,12 @@ import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
-import org.apache.http.client.ClientProtocolException;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
@@ -44,7 +32,7 @@ import java.util.List;
  */
 public class Tomorrow extends FragmentActivity {
     RowData ob;
-    ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
+    CustomArrayAdapter dataadapter;
 
     int yamaha, guitar6, fender, bass5, ejam, ejamMix;
     ArrayList<RowData> rowDataList;
@@ -52,17 +40,27 @@ public class Tomorrow extends FragmentActivity {
     TextView tvslot;
 
     Boolean[] array = new Boolean[12];
+
     final String[] values = new String[]{"07am-08am", "08am-09am", "09am-10am", "10am-11am", "11am-12pm",
             "12pm-1pm", "1pm-2pm", "2pm-3pm", "3pm-4pm", "4pm-5pm", "5pm-6pm", "6pm-7pm", "7pm-8pm", "8pm-9pm", "9pm-10pm"};
+
+
     SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+
     // Get the date today using Calendar object.
     Date today = Calendar.getInstance().getTime();
+
     // Using DateFormat format method we can create a string
 // representation of a date with the defined format.
+
     String reportDate = df.format(today);
     String outputDate = "";
 
+
+    CheckBox cb;
+    Button confirmBook;
     TextView date;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +70,7 @@ public class Tomorrow extends FragmentActivity {
 
         setContentView(R.layout.postsactivity);
         Bundle bundle = getIntent().getExtras();
+        cb = (CheckBox) findViewById(R.id.check);
         yamaha = bundle.getInt("Yamaha");
 
 
@@ -80,7 +79,7 @@ public class Tomorrow extends FragmentActivity {
         bass5 = bundle.getInt("5Bass");
         ejam = bundle.getInt("Ejam");
         ejamMix = bundle.getInt("EjamSeparate");
-
+        confirmBook = (Button) findViewById(R.id.confirmBook);
         listView = (ListView) findViewById(R.id.list);
         tvslot = (TextView) findViewById(R.id.tvslot);
         Arrays.fill(array, Boolean.FALSE);
@@ -106,571 +105,56 @@ public class Tomorrow extends FragmentActivity {
 
         final ParseUser currentUser = ParseUser.getCurrentUser();
         final String struser = currentUser.getUsername().toString();
-        new Read().execute();
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        confirmBook.setOnClickListener(new View.OnClickListener() {
+
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, final int position, long l) {
+            public void onClick(View v) {
+                final ParseObject[] p = new ParseObject[25];
 
-                dialogBuilder
-                        .withTitle("Confirmation")                                  //.withTitle(null)  no title
-                        .withTitleColor("#FFFFFF")                                  //def
-                        .withDividerColor("#11000000")                              //def
-                        .withMessage("Are you sure you want to book this slot ?")                     //.withMessage(null)  no Msg
-                        .withMessageColor("#FF000000")                              //def  | withMessageColor(int resid)
-                        .withDialogColor("#FFD4D60C")                               //def  | withDialogColor(int resid)
-                        .withDuration(700)                                          //def
-                        .withButton1Text("Yes")                                      //def gone
-                        .withButton2Text("Back")                                  //def gone
-                        .isCancelableOnTouchOutside(true)                           //def    | isCancelable(true)
-                        .setButton1Click(new View.OnClickListener() {
+                for (int i = 0; i < 25; i++) {
+                    if (dataadapter.mCheckStates.get(i) == true) {
+
+                        p[i] = new ParseObject("dbBand");
+                        final int finalI = i;
+
+                        Toast.makeText(getApplicationContext(),
+                                "Slot Successfully Booked onfully Booked Slot on " + outputDate,
+                                Toast.LENGTH_SHORT).show();
+                        p[i].put("username", currentUser);
+                        p[i].put("bookedDate", outputDate);
+                        p[i].put("bookedSlots", values[finalI]);
+                        p[i].put("yamaha", yamaha);
+                        p[i].put("guitar6", guitar6);
+                        p[i].put("fender", fender);
+                        p[i].put("bass5", bass5);
+                        p[i].put("ejam", ejam);
+                        p[i].put("ejamMix", ejamMix);
+                        Toast.makeText(Tomorrow.this, values[finalI], Toast.LENGTH_LONG).show();
+                        p[i].saveInBackground(new SaveCallback() {
                             @Override
-                            public void onClick(View v) {
-//                                Toast.makeText(v.getContext(), "Booked slot!", Toast.LENGTH_SHORT).show();
-                                try {
-                                    if (position == 0) {
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-
-                                        query.whereEqualTo("bookedSlots", "07am-08am");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Log.d("score", "Retrieved " + scoreList.size() + " scores");
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked onfully Booked Slot on " + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "07am-08am");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-                                    }
-
-
-                                    if (position == 1) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "08am-09am");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on " + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "08am-09am");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-                                    if (position == 2) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "09am-10am");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "09am-10am");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-
-                                    }
-                                    if (position == 3) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "10am-11am");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "10am-11am");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-                                    if (position == 4) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "11am-12pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "11am-12pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-                                    if (position == 5) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "12pm-1pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "12pm-1pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-
-                                    if (position == 6) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "1pm-2pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "1pm-2pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-
-                                    if (position == 7) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "2pm-3pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "2pm-3pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-
-                                    if (position == 8) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "3pm-4pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "3pm-4pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-                                    if (position == 9) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "4pm-5pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "4pm-5pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-
-                                    if (position == 10) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "5pm-6pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "5pm-6pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-                                    if (position == 11) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "6pm-7pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "6pm-7pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-                                    }
-
-                                    if (position == 12) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "7pm-8pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "7pm-8pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-
-                                    }
-
-                                    if (position == 13) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "8pm-9pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "8pm-9pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-
-                                    }
-
-                                    if (position == 14) {
-                                        //  ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
-                                        final ParseObject gameScore = new ParseObject("dbBand");
-                                        query.whereEqualTo("bookedSlots", "9pm-10pm");
-                                        query.whereEqualTo("bookedDate", outputDate);
-                                        query.findInBackground(new FindCallback<ParseObject>() {
-                                            public void done(List<ParseObject> scoreList, ParseException e) {
-                                                if (scoreList.size() > 0) {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot is busy",
-                                                            Toast.LENGTH_SHORT).show();
-
-                                                } else {
-                                                    Toast.makeText(getApplicationContext(),
-                                                            "Slot Successfully Booked on" + outputDate,
-                                                            Toast.LENGTH_SHORT).show();
-                                                    gameScore.put("username", currentUser);
-                                                    gameScore.put("bookedDate", outputDate);
-                                                    gameScore.put("bookedSlots", "9pm-10pm");
-                                                    gameScore.put("yamaha", yamaha);
-                                                    gameScore.put("guitar6", guitar6);
-                                                    gameScore.put("fender", fender);
-                                                    gameScore.put("bass5", bass5);
-                                                    gameScore.put("ejam", ejam);
-                                                    gameScore.put("ejamMix", ejamMix);
-                                                    gameScore.saveInBackground();
-                                                    finish();
-                                                    startActivity(getIntent());
-
-                                                }
-                                            }
-                                        });
-
-
-                                    }
-
-                                    dialogBuilder.dismiss();
-                                } catch (Exception e1) {
-                                    e1.printStackTrace();
-                                }
+                            public void done(ParseException e) {
 
                             }
-                        })
-                        .setButton2Click(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                dialogBuilder.dismiss();
-                            }
-                        })
-                        .show();
+                        });
 
+
+                    }
+
+                }
+
+
+
+                finish();
+                startActivity(new Intent(getApplicationContext(), BookedSlots.class));
 
             }
+
         });
+
+
+        new Read().execute();
+
 
     }
 
@@ -680,8 +164,6 @@ public class Tomorrow extends FragmentActivity {
         protected String doInBackground(String... params) {
 
             try {
-
-
                 rowDataList = new ArrayList<RowData>(15);
                 for (int i = 0; i < 15; i++) {
                     ParseQuery<ParseObject> query = ParseQuery.getQuery("dbBand");
@@ -715,16 +197,16 @@ public class Tomorrow extends FragmentActivity {
                                 ob.setTex("Slot Available");
 
                                 rowDataList.add(ob);
-                                CustomArrayAdapter dataAdapter = new CustomArrayAdapter(Tomorrow.this, R.id.label, rowDataList);
-                                dataAdapter.sort(new Comparator<RowData>() {
+                                dataadapter = new CustomArrayAdapter(Tomorrow.this, R.id.label, rowDataList);
+                                dataadapter.sort(new Comparator<RowData>() {
                                     public int compare(RowData arg0, RowData arg1) {
                                         return arg0.getSlot().compareTo(arg1.getSlot());
                                     }
                                 });
 
 
-                                dataAdapter.notifyDataSetChanged();
-                                listView.setAdapter(dataAdapter);
+                                dataadapter.notifyDataSetChanged();
+                                listView.setAdapter(dataadapter);
 
 
                             }

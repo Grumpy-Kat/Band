@@ -25,4 +25,11 @@
         android:textColor="#000000">
 
     </ListView>
-</RelativeLayout><!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/res/layout/postsactivity.xml -->
+    <Button
+        android:id="@+id/confirmBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+</RelativeLayout><!-- From: file:/home/kai/AndroidStudioProjects/Bandv1/ParseStarterProject/res/layout/postsactivity.xml -->

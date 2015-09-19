@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/btn_press" />
     <item android:state_enabled="false" android:drawable="@drawable/btn_press" />
     <item android:drawable="@drawable/btn_unpress" />
-</selector><!-- From: file:/E:/GitHub/NiftyDialog/NiftyDialogEffects/library/src/main/res/drawable/btn_selector.xml --><!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/drawable/btn_selector.xml -->
+</selector><!-- From: file:/E:/GitHub/NiftyDialog/NiftyDialogEffects/library/src/main/res/drawable/btn_selector.xml --><!-- From: file:/home/kai/AndroidStudioProjects/Bandv1/ParseStarterProject/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/res/drawable/btn_selector.xml -->

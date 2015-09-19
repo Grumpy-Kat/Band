@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-gif-drawable-1.1.10-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.10-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.10-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -364,7 +364,7 @@ public class BookedSlots extends FragmentActivity {
                             }
 
 
-                            CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
+                            CustomArrayAdapterForBookedSlots dataAdapter = new CustomArrayAdapterForBookedSlots(BookedSlots.this, R.id.label, rowDataList);
                             dataAdapter.sort(new Comparator<RowData>() {
                                 public int compare(RowData arg0, RowData arg1) {
                                     return arg0.getTex().compareTo(arg1.getTex());
@@ -381,7 +381,7 @@ public class BookedSlots extends FragmentActivity {
                             ob.setTex("");
 
                             rowDataList.add(ob);
-                            CustomArrayAdapter dataAdapter = new CustomArrayAdapter(BookedSlots.this, R.id.label, rowDataList);
+                            CustomArrayAdapterForBookedSlots dataAdapter = new CustomArrayAdapterForBookedSlots(BookedSlots.this, R.id.label, rowDataList);
                             dataAdapter.sort(new Comparator<RowData>() {
                                 public int compare(RowData arg0, RowData arg1) {
                                     return arg0.getSlot().compareTo(arg1.getSlot());

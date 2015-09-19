@@ -7,4 +7,4 @@
     <stroke
         android:width="@dimen/radio_button_stroke_border"
         android:color="@color/radio_button_selected_color" />
-</shape><!-- From: file:/Users/hoang8f/Desktop/project/05.My%20Projects/Android/android-segmented-control/library/src/main/res/drawable/radio_checked.xml --><!-- From: file:/C:/AndroidStudioProjects/BandFinal/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_checked.xml -->
+</shape><!-- From: file:/Users/hoang8f/Desktop/project/05.My%20Projects/Android/android-segmented-control/library/src/main/res/drawable/radio_checked.xml --><!-- From: file:/home/kai/AndroidStudioProjects/Bandv1/ParseStarterProject/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.5/res/drawable/radio_checked.xml -->
